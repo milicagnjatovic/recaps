@@ -1,0 +1,14 @@
+C# primer
+
+x?.y
+ako je x null vraca null 
+ako x nije null pristupamo y
+ako je y vraca null
+a inace x.y 
+
+is not null nije kao != null
+
+monade u c++
+
+monade imaju return i bind
+return je konstruktu r
