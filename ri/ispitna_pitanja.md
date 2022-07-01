@@ -2,20 +2,20 @@
 
 ## `1` Računarska inteligencija, definicija i paradigme
 
-Intaligencija - mogućnost rraumevanja i stvarivanja koristi od rayumevanja, uključuje kreativnost, veštine, savesnost, emociju u intuiciju.  
+Intaligencija - mogućnost razumevanja i ostvarivanja koristi od razumevanja, uključuje kreativnost, veštine, savesnost, emociju u intuiciju.  
 Tjuringov test da li mašina može da imitira ljudski mozak: mašina i čovek odgovaraju na pitanja, ako ne možemo da napavimo razliku onda mašina ima veštačku inteligenciju. To uključuje da mašina može da daje pogrešne odgovore kao što bi ih i čovek dao.  
 Računarska inteligencija je podgrana veštačke intelignecije.  
 Računarska inteligencija (Computation nitelligence) je inspirisana konceptima iz prirode, koji se javljaju u dinamičkom okruženju.  
-Npr posmatrna jata ptica, kolonije mrava.  
+Npr posmatrana jata ptica, kolonije mrava.  
 Računarska inteligencija izučava mehahnizme inteligentnog ponašanja u složenim okruženjima.
 Mehanizmi koji mogu da uče, da se prilagođavaju, uopštavaju...
 
 RI paradigme
-- Veptačke neuronske mreže (Artificial neural networrks - ANN)
+- Veštačke neuronske mreže (Artificial neural networks - ANN)
     - oponašaju ljudski mozak
     - mreža je izgrađena od veeštačkih neurona
     - mreža obično sadrži ulazni, izlatni i nula ili više srednjih slojeva
-    - euronske mreže mogu biti jednoslojne, višeslojne sa propagacijom unapred, temporalne i rekurentne, samoorganizujuće, kombinovane mreže
+    - neuronske mreže mogu biti jednoslojne, višeslojne sa propagacijom unapred, temporalne i rekurentne, samoorganizujuće, kombinovane mreže
     - primenjuju se u medicini, prepoznavanju zvuka i slika, kontrola robota, klasifikacija podataka...
 - Evolutivna izračunavanja (Evolutionary computation - EC)
     - imitiraju proces prirodne evolucije
@@ -23,19 +23,19 @@ RI paradigme
     -  koristi je populacija jedinki - hromozoma
     - iterativno se kroz generacije simulira evolucija
     - vrste evolutivnih izračunavanja su genetski algoritmi, genetsko programiranja, evolutivne strategije, diferencijalna evolucija, kulturalna evolucija, koevolucija
-    - korissti se za rešavanj teških poblema kombinatorne (diskretne) i kontinualne (globalne) optimizacije, klasifikaciju podataka, klaster analiza, aproksimacija vremenskih serija...
+    - korissti se za rešavanje teških poblema kombinatorne (diskretne) i kontinualne (globalne) optimizacije, klasifikaciju podataka, klaster analiza, aproksimacija vremenskih serija...
 - Inteligencija grupa (Swarm intelligence - SI)
     - ideja zasnovana na socijalnom ponašanju nekih organiama - mrava, pčela, ptica...
     - PSO - Particle swarm optimization, socijalno ponašanje jata ptica
     - svaka jedinka jate prestavlja kandidata za rešenje postavljneog optimiacionog problema
-    - poicija u višedimenzionom prostoru pretragese može pretvoriti u rešenje posmatranog problema
-    - jedinke koje u prostoru rešenja azuimaju boljju poziciju privlače druge jedinke
+    - pozicija u višedimenzionom prostoru pretrage se može pretvoriti u rešenje posmatranog problema
+    - jedinke koje u prostoru rešenja uzimaju boljju poziciju privlače druge jedinke
 - Veštački imuni sistem (Artificila immune system - AIS)
 - Rasplinuti (fazi) sistemi (Fuzzy systems - FS)
-    - inspiisani prirodnim jezikom, nije sve crno-belo već ima i sivog
-    - ideja je da element može da pripada skupu u odrerđeno proceentu, nije samo pripada / ne pripada
-    - zasnovana je na zakonitostima verovattnoće i bazirana je na opažanjima
-    - primena: kontrolni sistemi, automatski menjači. kontrola liftova, kućni ueđaju, kontrola saobraćajne signalizacije...
+    - inspirisani prirodnim jezikom, nije sve crno-belo već ima i sivog
+    - ideja je da element može da pripada skupu u odrerđeno procentu, nije samo pripada / ne pripada
+    - zasnovana je na zakonitostima verovatnoće i bazirana je na opažanjima
+    - primena: kontrolni sistemi, automatski menjači, kontrola liftova, kućni ueđaju, kontrola saobraćajne signalizacije...
 
 Srodan termin CI je Soft computing koji podraumeva upotrebu višestrukih CI paradigmi i verovatnosnih metoda.
 
@@ -48,7 +48,7 @@ Veštačke neuronske mreže za zadatak imaju da imitiraju ljudski mozak. Za razl
 Biološki neuron
 ![neuron](./imgs/bio_neuron.png)
 -  neuroni su međusobno povezani
-- veza ide između aksona jednog neurona i dendrita drugog - veza se naiva sinapsa
+- veza ide između aksona jednog neurona i dendrita drugog - veza se naziva sinapsa
 - sinapsa nije fizička veza već se pod određenim uslovima prenosi impuls/signal sa jedne strane na drugu
 - signal se šalje povremeno
 - neuron može da suzbije ili pojača jačinu signala
@@ -56,21 +56,21 @@ Biološki neuron
 Veštački neuron - Artificial Neuron  
 ![neuron](./imgs/neuron.png)
 - model biološkog neurona
-- AN prima signal od okruženja ili drugog AN, a zzatim ga prenosi povezanim AN
+- AN prima signal od okruženja ili drugog AN, a zatim ga prenosi povezanim AN
 - hemijske veze se simuliraju funkcijama
-- ulani signali su promenljive ili vektori promenljivih
+- ulazni signali su promenljive ili vektori promenljivih
 - postoje težine w koje se množe sa ulaznim signalom, i te težine se uče
 - sinapsu simulira aktivaciona funkcija koja prima skalarni proizvod wx
 - vrednost aktivacione funckije uzima u obzir prag koji odlučuje da li će se signal poslati dalje
-- ibor težina i aktivacione funkcije omogućava učenje
-- veštački neuron predstavlja jednostavan mehanizam učenja lineane funkcije
+- izbor težina i aktivacione funkcije omogućava učenje
+- veštački neuron predstavlja jednostavan mehanizam učenja linearne funkcije
 
 Veštačke neuronske mreže - Arrtificial Neural Networks
-- mreže slojevito raspoređenih veštačkiih neurona
+- mreže slojevito raspoređenih veštačkih neurona
 - ima ulazni i izlazni sloj, a između je nula ili više središnjih slojeva
 - koristi se a učenje složenih i nelinearnh funkcija
 - ulazni sloj mogu činiti pikseli slike
-- izzlaz jednog neurona se propagira na sve neurone narednog sloja i tako redom...
+- izlaz jednog neurona se propagira na sve neurone narednog sloja i tako redom...
 - cilj je naučiti funkciju
 - uspeh učenja zavisi od količine ulaznih podataka
 
@@ -86,16 +86,16 @@ Vrste veštačkih neurronskih mreža
 - Lofti Zadeh (1965) - opisao ideju fazi skupova
 - fazi skupovi su bazirani na pretpostavci da možemo definisati stepen pripadnosti nekom skupu
 - pripadnost skupa se definiše nekom numeričkom vrednošću između 0 i 1
-- Ako je X domen, a x iz X konkretna element tog domena, onda se fazi skup A opisuje funkcijom prripadnosti:
+- Ako je X domen, a x iz X konkretna element tog domena, onda se fazi skup A opisuje funkcijom pripadnosti:
 μ_A: X -> [0, 1]
 - npr domen je visina, a mi definiše u kolikom meri neka visina pripada skupu visokih, odnosno niskih ljudi
 - fazi skpovi mogu iti dfinisani nad diskretnim ili realnim domenom
 - Notacije za predstavljanje diskretnog fazi skupa:
 1. Preko skupa uređeniih parova: 
-    - A = {(μ_A(x_i),x_i)|x_i ∈ X, i = 1, ... , n_x }
+    - $A = \{(μ_A(x_i),x_i)|x_i ∈ X, i = 1, ... , n_x \}$
 2. Preko "sume": 
-    - A = μ_A(x_1)/x_1 + μ_A(x_2)/x_2 + ··· + μ_A (x_nx)/x_nx
-    - nee podraumeva stvarno sabiranjee već samo u smislu zapisa
+    - $A = μ_A(x_1)/x_1 + μ_A(x_2)/x_2 + ··· + μ_A (x_nx)/x_nx$
+    - ne podrazumeva stvarno sabiranje već samo u smislu zapisa
 
 - Notacija za realn fazi skup se daje preko "integrala"
     - kao suma malopre, ovo je samo notacija
@@ -103,8 +103,8 @@ Vrste veštačkih neurronskih mreža
 
 - Fazi funkcija pripadnosti skupu
     - ograničena imeđu 0 i 1
-    - za saki element domena je jednonačna
-    - posttoji više mogućih načina definisanja
+    - za svaki element domena je jednočlana
+    - postoji više mogućih načina definisanja
 
     - ![grafik](./imgs/graph1.png)
     - ![legend](./imgs/legend1.png)
@@ -125,7 +125,7 @@ Vrste veštačkih neurronskih mreža
     - funkcija pripadnosti A je manje od funkcije pripadnosti B
 
 - komplement
-    - ako je $A^c$ komplement skupa A ona za sve $x \in X$  $μ_A(x) = 1 - μ_AC(x)$
+    - ako je $A^c$ komplement skupa A onda za sve $x \in X$  $μ_A(x) = 1 - μ_{A^C}(x)$
     - ne važi identitet kao u klasičnoj teoriji skupova da je $A^C \cap A = ∅ $ i $A^C \cup A = X$
 
 - presek
@@ -134,10 +134,10 @@ Vrste veštačkih neurronskih mreža
         - $μ_{A \cap B}(x) = min \{ μ_A(x), μ_B(x)\}, \forall x \in X$
     - preko proizvoda:
         - $μ_{A \cap B}(x) =  μ_A(x) * μ_B(x),  \forall x \in X$
-    - prođemo kroz sve elemente domena i iračunamo vrednost funkcije pripadnosti elemenata u preseku po izabranoj formuli
-    - efikasnije je preći kroz elemente samo jednog skupa
+    - prođemo kroz sve elemente domena i izračunamo vrednost funkcije pripadnosti elemenata u preseku po izabranoj formuli
+    - efikasnije je proći kroz elemente samo jednog skupa
     - svaki element dobija stepen pripadnost preseku
-    - problem sa proizvodom je težnja nuli, nakon nekoliko množenja boja manjeg od 1 se sve više teži nuli
+    - problem sa proizvodom je težnja nuli, nakon nekoliko množenja broja manjeg od 1 se sve više teži nuli
     - definicija preko minimuma rešava ovaj problem
 
 - unija
@@ -145,7 +145,7 @@ Vrste veštačkih neurronskih mreža
     - preko maksimuma   
         - $μ_{A \cup B}(x) = max \{ μ_A(x), μ_B(x)\}, \forall x \in X$
     - preko sume i preseka
-        - $μ_{A \cap B}(x) =  μ_A(x) + μ_B(x) μ_A - (x) * μ_B(x),  \forall x \in X$
+        - $μ_{A \cap B}(x) =  μ_A(x) + μ_B(x) - μ_A(x) * μ_B(x),  \forall x \in X$
     - sa sumom i presekom treba biti oprezan, jer funckaije pripadnosti teži 1 čak i ako su polazne funckije bliske 0
 
 ![grafik](./imgs/fazi_operacije.png)
@@ -186,7 +186,7 @@ Vrste veštačkih neurronskih mreža
     - fazi skup je unimodalan ako njegova funkcija pripadnosti unimodalna
     - unimodalna funckija - ima smo jednu vrednost sa najvećom vrednošću
 - **Kardinalnost**
-    - u zavisnosti od tipa domena see definiše na jedan od narednih načina
+    - u zavisnosti od tipa domena se definiše na jedan od narednih načina
     - $card(A) = \sum_{x \in X} μ_A(x)$
     - $card(A) = \int_{x \in X} μ_A(x)dx$
     - sabiramo vrednosti funkcije pripadnosti svih elemenata domena
@@ -204,7 +204,7 @@ Vrste veštačkih neurronskih mreža
 
 - fazi i verovatnoća nisu povezani
 - jedina sličnost je što oba termina referišu na (ne)sigurnost događaja
-- verovatnoća se veuje a slučajan događaj, a u fazi nema koncepta slučajnosti i neizvesnosti
+- verovatnoća se vezuje za slučajan događaj, a u fazi nema koncepta slučajnosti i neizvesnosti
     - nema predviđanja da li je neko visok, već samo koliko pripada skupu visokih ljudi
     - u fazi ne govorimo o sigurnosti da se neki događaj desi, ne govorimo kolika je šansa da padne glava ili pismo
 - fazi se vezuje za stepen istinitosti, stepen pripadnosti nekom skupu
@@ -213,7 +213,7 @@ Vrste veštačkih neurronskih mreža
 ---
 ## `7.` Fazi logika.
 Primer zaključivanja:  
-- imamo dva fati skupa - jedan meri visinu a drug atletizam
+- imamo dva fazi skupa - jedan meri visinu a drug atletizam
 - definišemo pravilo zaključivanja nad jednim domenom
 - $μ_{tall}(A)=0.9 μ_{athlete}(A)=0.8$
 - $μ_{tall}(B)=0.9 μ_{athlete}(B)=0.5$
@@ -227,9 +227,9 @@ Primer zaključivanja:
 Ključni elementi su lingvističke promenljive i fazi _if-then_ pravila zaključivanja.
 
 Lingvsitičke (fazi) promenljve - Zadeh (1973)
-- promenljive čije su vrednosti reči prirodnog  (neformalnog) jezika
+- promenljive čije su vrednosti reči prirodnog (neformalnog) jezika
 - reč _tall_ je lingvistička promenljiva
-- tipovi lingvisitčih promenljivih:
+- tipovi lingvisitčkih promenljivih:
     - kvantifikatori: sve, većina, mnogo, neki, nijedan...
     - promenljive za učestalost: ponekad, često, uvek...
     - promenljive za šansu: moguće, verovatno, sigurno
@@ -237,16 +237,16 @@ Lingvsitičke (fazi) promenljve - Zadeh (1973)
 - modifikatori lingvističkih promenljivih
     - dodatne reči koje pojačavaju ili slabe efekat
     - najčešće pridevi, veoma, malo, srednje...
-    - mogu se navesti u relaciji sa originalnom lingvisitčkom promenljivom putem funkcija 
+    - mogu se navesti u relaciji sa originalnom lingvističkom promenljivom putem funkcija 
     - npr $μ_{very tall}(x)= μ_{tall}(x)^2$
         - ako neko pripada skupu visokih ljudi sa sigurnošću 0.9 onda prpada skupu veoma visokih ljudi sigurnošću 0.81
     - za slabljenje efekta se uglavnom koristi $μ_{very tall}(x)= μ_{tall}(x)^{1/p}$ $za$ $p>1$
 - fazi pravila zaključivanja
-    - npr _if **age** is OLD the **speed** is SLOW_
+    - npr _if **age** is OLD then **speed** is SLOW_
     - premise - stvari koje možemo da izmerimo, izvedene primenom sistema zaključivanja
-    - aključak je verodostojan koliko i premise
+    - zaključak je verodostojan koliko i premise
     - na osnovu premisa se donosi skup zaključaka
-    - iz spoljašnosti se doijaju vrednosti, njih provučemo kroz skup pravila i dobijamo neku upotrebljivu vrednost
+    - iz spoljašnosti se dobijaju vrednosti, njih provučemo kroz skup pravila i dobijamo neku upotrebljivu vrednost
     ![](imgs/starost_sporost.png)
     - pripadnost osobe od 70 godina starim osobama je 0.4
     - uzimamo stepen pripadnosti premise i sečemo y osu
@@ -260,8 +260,8 @@ Lingvsitičke (fazi) promenljve - Zadeh (1973)
 ### Memdanijev metod:
 ![](./imgs/mamdani.png)
 - ulaz iz stvarnog sveta se fazifikuje, tj prevodi na jezik fazi logike
-- sprovodi se sistem zakljjučivanja i dobija se fazifikovan izlaz
-- defaifikacijom se faifikovan izla prevodi u nešto razumljivo
+- sprovodi se sistem zaključivanja i dobija se fazifikovan izlaz
+- defazifikacijom se fazifikovan izlaz prevodi u nešto razumljivo
 
 ### Fazifikacija
 - ulazni podaci (premise) se iz nefazi prevode u fazi reprezentaciju
@@ -270,12 +270,12 @@ Lingvsitičke (fazi) promenljve - Zadeh (1973)
 - nad dobijenim vrednostima se dalje sprovodi proces zaključivanja
 - npr A i B su fazi skupovi nad domenom X
 - proces fazifikacije prihvata elemente _a_ i _b_ iz domena X
-- na izlazu proizvodi fai skup tako što im dodlejuje stepene pripadnosti svakom o fazi skupova
+- na izlazu proizvodi fazi skup tako što im dodeljuje stepene pripadnosti svakom o fazi skupova
     - $\{(μ_A(a), a),(μ_B(a), a), (μ_A(b), b), (μ_B(b), b)$
 
 ### Primena pravila zaključivanja
 - cilj je primeniti pavila zaključivanja nad fazifikovanim ulazima
-- na izlazu iz pravila zaključivanja je faifikovan izla za svako od pravila (u opštem slučaju je više pravila)
+- na izlazu iz pravila zaključivanja je fazifikovan izlaz za svako od pravila (u opštem slučaju je više pravila)
 - za svako pravilo se određuje stepen pripadnosti zaključku
 - Primer:
     - neka su A i B definisani nad domenim $X_1$, dok je fazi skup C definisan nad domenom $X_2$
@@ -337,7 +337,7 @@ Optimiacija je oblast koja se dominanto bavi algoritmima pretrage, a čiji je ci
 - minimum od f je maksimum od -f
 - nezavisne promenljive - skup vrednsti __x__ koje utiču na vrednost f, i za date vrednosti promenljivih funkcija ima vrensot f(x)
 - skup ograničenja najčešće predstavlja zavisnosti između nezavisni promenljivih
-    - npr ograničenje da jedno zavisi od drugog, ograničenja mogu da reduku domen, npr da je x parno ili neparno
+    - npr ograničenje da jedno zavisi od drugog, ograničenja mogu da redukuju domen, npr da je x parno ili neparno
 - skup ograničenja može da ograničava i same nezavisne promenljive, npr na neki interval ili skup vrednosti
 
 ### Programiranje ograničenja
@@ -363,7 +363,7 @@ Optimiacija je oblast koja se dominanto bavi algoritmima pretrage, a čiji je ci
 
 ### Metode optimizacije
 - traže optimum u prostoru dopustivih rešenja, tj rešenje koje zadovoljava svak ograničenja, domenska i ekslplicitna
-- nkad možemo da izađeo iz skupa dopustivih rešenja jer postoji mogućnost da se u blizini nedopustivog nalazi dobro dopustivo rešenje
+- nekad možemo da izađeo iz skupa dopustivih rešenja jer postoji mogućnost da se u blizini nedopustivog nalazi dobro dopustivo rešenje
 
 Prema fokusu pretrage:
 - Lokalne metode
@@ -382,10 +382,10 @@ Metode prema pristupu pretrage
 
 Ideja: ako su blizu lokalnog optimuma primeni neku metodu, npr prati gradijent, ako si zaglavljen u minimumu zapamti gde si bio i prebaci se negde nasumično i proveri ima li tamo neko bolje rešenje, slučajni brojevi pomažu odglavljivanju.
 
-### Još neki vidovi postavke optiizacionih problema
+### Još neki vidovi postavke optimizacionih problema
 1. problem sa višestrukim optimumima
     - pronaći sva rešenja koja su optimalna ili dovoljno blizu optimuma
-    - npr edukujemo gde je pritisak na teč ekranu
+    - npr dedukujemo gde je pritisak na tač ekranu
 2. višeciljna optimizacija
     - imamo više funkcija cilja pa je složenije urediti rešenja
     - hoćemo istovremeno da optimizujemo više funkcija cilja, ali je problem što je u jednoj tačk viš optimizovana jedna funkcija a u drugoj druga
@@ -424,18 +424,18 @@ Opšta formula u slučaju ograničenja:
     - $h_m(x) = 0, m=n_g, ... , n_g+n_h$
     - funkcije mogu biti proizvoljne, nezgodnije je rešiti problem ako je nelinearna
     - jednakost se može svesti na dve nejednakosti
-- Ovde pored domenskih ograničenja postoje i ograničenja zasnovana na jednsakosti i/ili nejednakosti
+- Ovde pored domenskih ograničenja postoje i ograničenja zasnovana na jednakosti i/ili nejednakosti
 
 ![](./imgs/ogranicenja.png)
 - ograničenja redukuju prostor pretrage
 - infeasible space - nedopustiv prostor rešenja
 - feasible space - dopustiv prostor rešenja
-- kada redukujemo prostor rešenja ne moramo da ih proveravamo više, ali pri proveri moramo da roveravao da li je rešenje dopustivo
+- kada redukujemo prostor rešenja ne moramo da ih proveravamo više, ali pri proveri moramo da proveravao da li je rešenje dopustivo
 - objective functiona - funkcija koju posmatramo
 - ograničenje nejednakosti
 
 Rad sa nedopustivim rešenjima:
-1. Odaciti ih
+1. Odbaciti ih
     - jednostavno ali uglavnom nije dovoljno dobro
 2. Dodeljivati penal
     - npr negativan faktor u slučaju maksimizacije ili pozitivan u slučaju minimizacije
@@ -468,7 +468,7 @@ Rad sa nedopustivim rešenjima:
     3. aproksimativni algoritam
         - matematički utvrdimo da važe neke pravilnosti
         - za TSP je utvrđeno da postoje dva aproksimativna algoritma
-        - dobijeno rešenje ce najviše dva puta lošije od optimalnog i postoji teorema koja to dokazuje
+        - dobijeno rešenje će najviše dva puta lošije od optimalnog i postoji teorema koja to dokazuje
         - imamo gornju granicu ali to nije najbolja granica kvaliteta
         - obično aproksimativni algoritmi imaju bolju složenost
 
@@ -490,8 +490,8 @@ Poređenje različitih pristupa
 - izaberemo neko polazno rešenje iz dopustivog skupa
 - kriteijum zaustavljanja: stabilnost rešenja, fiksan broj iteracija...
 - računamo vrednost funkcija cilja u svakoj iteraciji
-- izračunamo pravac i smer pretrage qt, može da se računa na razzličite načine, npr gradijent
-- korak možemo gleati kao pravac poverenja u smer kretanja pretrage, menja se po nekoj funkciji vremena
+- izračunamo pravac i smer pretrage qt, može da se računa na različite načine, npr gradijent
+- korak možemo gledati kao pravac poverenja u smer kretanja pretrage, menja se po nekoj funkciji vremena
 - naredno rešenje se ažurira u skladu sa korakom pretrage
 
 Primer: problem pokirivača grana čvorovima, potskup skupa čvorova takav da su sve grane incidentne sa bar jednim čvorom iz skupa
@@ -509,14 +509,13 @@ Primer: problem pokirivača grana čvorovima, potskup skupa čvorova takav da su
 ### Ubacivanje slučajnosti u pretragu
 - metaheuristike kombinuju lokalnu pretragu i slučajnost
 - nešto između Monte Karlo simulacija i lokalne pretrage
-- Monte Karlo generiše slučajne promenljive, nusmično generiše vrednosti, ispituje vrednosti funkcije cilja i cuva optimum
+- Monte Karlo generiše slučajne promenljive, nusmično generiše vrednosti, ispituje vrednosti funkcije cilja i čuva optimum
 - nema garanciju kvaliteta, kad dođe do rešenja nema garanciju da je najbolje
 - kada broj pokušaja teži beskonačno i rešenje teži optimumu
 - Las Vegas algoritmi su takođe slučajni algoritmi
 - efikasnost je problem - ne možemo baš beskonačno, ali ogrman broj pokušaja
 
-- lokalna pretraga vrlo brzo iskonvergira ka lokalnom optimumu
-- lokalna pretraga je sklona zaglavljivanju i efikasna
+- lokalna pretraga vrlo brzo iskonvergira ka lokalnom optimumu, sklona zaglavljivanju ali efikasna
 - Monte Karlo - dolazi do globalnog optiuma ali izuzeno neefikasno
 - ova dva načina se kombinuju simuliranim kaljenjem
 
@@ -553,7 +552,7 @@ Problemi kod kojih je potrebno zadovoljiti više funkcija cilja (kriterijuma)
 - Ekomonija - naći portfolio sa maksimalnim prihodom i minimalnim rizikom
 - Transportni poblem - maksimizovati iskorišćenost ulice a minimizovati zagušenje, troškove rutiranja i slično
 - poboljšanje jedne funkcije cilja znači pogoršanje druge funkcije cilja
-- npr povećanje stabilnosti mosta povećava i tropkove
+- npr povećanje stabilnosti mosta povećava i troškove
 - pravi se balans, tj kompromis, koncept nedominiranih rešenja
 
 ### Pristupi rešavanju
@@ -570,7 +569,7 @@ Problemi kod kojih je potrebno zadovoljiti više funkcija cilja (kriterijuma)
     - populacione strategije koje iterativno poboljšavaju skup dobrih rešenja upotrebom svojstva dominacije
 
 ---
-## `14.` Klase složenosti izračunavanj i rešavanje NP teških problema.
+## `14.` Klase složenosti izračunavanja i rešavanje NP teških problema.
 
 Algoritam - konačan spisak pravila čijim praćenjem dolazimo do rešenja bilo kog partikularnog problema (instance problema) iz date klase, a praćenje pravila traje konačano mnogo koraka.  
 
@@ -621,8 +620,8 @@ Postoje problemi za koje je dokazano da ne mogu biti rešeni algoritmom bržim o
 - ako za bilo koji NP kompletan problem pronađemo polinomski algoritam time bi dokaali postojanje polinomskog algoritma za svaki NP problem, tj pokaalo i se N=NP
 
 ### NP teški problemi
-- spominj se u kontekstu optimizacije
-- problemi čije su odlučive vaijate NP potpuni problemi
+- spominje se u kontekstu optimizacije
+- problemi čije su odlučive vairjante NP potpuni problemi
 - zapravo NP kompletni problemi u klasi problema odlučivanja
 
 ### Načini rešavanja problema
@@ -632,13 +631,13 @@ Postoje problemi za koje je dokazano da ne mogu biti rešeni algoritmom bržim o
 - približno (aproksimativno) rešavanje
     - postupci koji čak i kad završe ne garantuju optimalnost
     - ovde spadaju (meta)heuristike i algoritmi sa garancijom kvaliteta
-    - približno treba rešavati samo ako e postoji polinomski postupak, tj približno treba rešavati NP teške probleme
+    - približno treba rešavati samo ako je postoji polinomski postupak, tj približno treba rešavati NP teške probleme
 
 
 ---
 ## `15.` Evolutivna izračunavanja - opšti koncepti
 - evolucija se može posmatrati **optimizacionim procesom** sa ciljem poboljšanja **prilagođenosti** organizma (ili sistema) **dinamičkom i takmičarsko nastrojenom okruženju**
-- prirodni mehanizam koji za poslediu ima da se oragnizmi u prirodi prilagođavaju sistemu u kom se nalaze, a loše prilagođene vrste izumiru
+- prirodni mehanizam koji za posledicu ima da se oragnizmi u prirodi prilagođavaju sistemu u kom se nalaze, a loše prilagođene vrste izumiru
 
 - Domeni
     - hemijski - organiski i neorganski
@@ -647,7 +646,7 @@ Postoje problemi za koje je dokazano da ne mogu biti rešeni algoritmom bržim o
     - evolucija ljudskih tvorevina
 
 - Lamarack (1744-1829) 
-    - podrđava teoriju nasleđivanja stečenih karakteristika poznatu već 2000 godina
+    - podržava teoriju nasleđivanja stečenih karakteristika poznatu već 2000 godina
     - **opovrgnuto**
     - npr imamo osobu visoku 180cm, igra košarku pa se izduži na 185cm, ta visina neće biti nasledna
     - nema veze između fenotipa i genotipa
@@ -655,14 +654,14 @@ Postoje problemi za koje je dokazano da ne mogu biti rešeni algoritmom bržim o
     - genotip - osobine zapisane u hromozomu
 
 - Darwin (1809-1882)
-    - teorije evolucije krozz proces **prirodne selekcije**
+    - teorije evolucije kroz proces **prirodne selekcije**
 
 ### Prirodna selekcija
 - svaka jedinka se **takmički** sa ostalima u cilju preživljavanja
 - **najbolje** jedinke imaju veću šansu da prežive i ostave potomstvo, one imaju više vremena da ostave potomstvo
 - one češće prenose svoje gene, tj **karakteristike**
 - vremenom ove **pogodne** karakteristike postaju dominantne u populaciji
-- tokom stvaranja potomstva ulogu igraju i slučajni dogđaju:
+- tokom stvaranja potomstva ulogu igraju i slučajni dogđaji:
     - ukrštanje - bira se gen oca ili majke, ukrštaju se geni, suštinski ne nastaje ništa novo
     - mutacija - nasumična izmena zbog spoljašnjih događaja, uvode se nove informacije u sistem, npr ako imamo populaciju ljudi jedne boje očiju, da bi se boja promenila potrebno je da se desi mutacija na određenom genu
 - nema garancije da će dobro prilagođene jedinke ostaviti potomstvo, ni da loše prilagođene neće
@@ -674,16 +673,16 @@ Postoje problemi za koje je dokazano da ne mogu biti rešeni algoritmom bržim o
     - ukrštanje
     - mutacija
     - ... 
-- umesto organiama i njihove borbe za preživljavanjem, jedinke u populcijama, kodiraju rešenja nekog problema
-- jedinka se kodria određennim strukturama podataka, listama, nizovima...
+- umesto organizama i njihove borbe za preživljavanjem, jedinke u populcijama, kodiraju rešenja nekog problema
+- jedinka se kodira određennim strukturama podataka, listama, nizovima...
 - neka funkcija cilja kvantifikuje prilagođenost jedinke
-- nakon nekog vremena rešenje evaluira u smeru poboljšanja
+- nakon nekog vremena rešenje evoluira u smeru poboljšanja
 
 ### Uopšteni evolutivni algoritmi
 - evolutivni algoritmi traže optimalna rešenja putem **stohastičke** pretrage nad **prostorom rešenja**
-- jedinke (hromozomi) predstavljaju pojedinalne tačke u prostoru rešenja
+- jedinke (hromozomi) predstavljaju pojedinačne tačke u prostoru rešenja
 - genetski algoritmi su populacioni algoritmi - menja se cela populacija, u svakom momentu raspolažemo populacijom jedinki, a pp da su ravnomerno razbacane po prostoru pretrage
-- Ključni aspekti avolutivnih algoritama:
+- Ključni aspekti evolutivnih algoritama:
 1. Rešenja se kodiraju u vidu hromozoma, npr niz celi brojeva koji predstavlja sekvencu gena
 2. Fitnes funkcija koja ocenjuje kvalitet jedinke, malo prilagođenija u nekim situacijama u odnosu na funkciju cilja
     - funkcija cilja direktno odgovara postavci problema, dužina najkraćeg ciklusa npr
@@ -699,8 +698,8 @@ Postoje problemi za koje je dokazano da ne mogu biti rešeni algoritmom bržim o
 inicijalizuj broj generacija na t=0;
 kreiraj i inicijaliuj n_x-dimenzionu populaciju C(0) od n_s jedinki;
 while nije_zadovoljen_uslov_zaustavljanja do
-    iračunaj fitnes funkciju f(x_i(t)) svake jedinke x_i(t);
-    ivrši ukrštanje i fomriraj potomke;
+    izračunaj fitnes funkciju f(x_i(t)) svake jedinke x_i(t);
+    izvrši ukrštanje i fomriraj potomke;
     odaberi novu populaciju C(t+1);
     pređi u narednu generaciju, t=t+1;
 end
@@ -724,13 +723,13 @@ end
     - evolucija evolucije = evolucija genotipa + evolucija parametara evolucije genotipa
     - neki vid metaevolucije
     - ne variramo samo genotip već i uslove okruženja
-    - kao da imamo različita podneblja a evoluciju, jednu populaciju stavimo na madagaskar a drugu na antarktik
+    - kao da imamo različita podneblja za evoluciju, jednu populaciju stavimo na Madagaskar a drugu na Antarktik
 - Diferencijalna evolucija
-    - kao standardni EA samo se mutacija bira iz unapred neponate slučajne raspodele - prilagođene populacije
-    - biraju se vektori pomeraja koji su relativni u odnosu na otale jedinke populacije
+    - kao standardni EA samo se mutacija bira iz unapred nepoznate slučajne raspodele - prilagođene populacije
+    - biraju se vektori pomeraja koji su relativni u odnosu na ostale jedinke populacije
     - ne pravi se pp iz koje raspodele biramo slučajne brojeve
 - Kulturna evolucija
-    - evolucija kulture u populaciji - kulture prihvataju verovanja iz populacije, ali i utiču na populaciju sazmerno svojoj prilagođenosti 
+    - evolucija kulture u populaciji - kulture prihvataju verovanja iz populacije, ali i utiču na populaciju srazmerno svojoj prilagođenosti 
     - nije biološka evolucija
 - Koevolucija
     - evolucija i preživljavanje kroz saradnju i takmičenje, npr biljke i insekti (simbioza)
@@ -751,17 +750,16 @@ end
 - vrednost (sadržaj) gena se zove genski alel
 - u konteksu EA hromozomi predstvljaju rešenje problema, a pojedinačni geni su karakteristike rešenja
 - odabir pogodnog kodiranja je ključno za rešavanje problema
-- kodiranje je najčešće asnovano na niu vrednosti nekog tipa, osim u slučaju genetskog programiranja gde je kod nelinearan (stablo)
-- klasična reprezentacija bi bio binarni vektor fisken dužine, npr za grafove
-- kod možebiti zasnovan na nizzu celih brojeva fiksne dužine
+- kodiranje je najčešće zasnovano na nizu vrednosti nekog tipa, osim u slučaju genetskog programiranja gde je kod nelinearan (stablo)
+- klasična reprezentacija bi bio binarni vektor fiksne dužine, npr za grafove kod može biti zasnovan na nizu celih brojeva fiksne dužine
 
 Primeri:
 1. naći najmanji podskup čvorova takav da svaka od grana grafa ima bar jedan kraj u tom podskupu
-2. Problem trgovačkog putnika - traži se Hamiltonov ciklus, krenemo iz jednog grada obiđemo sve ostale i vratimo se u ppočetni, a to po najmanjoj ceni, predstavlja se permutacijom čvorova
+2. Problem trgovačkog putnika - traži se Hamiltonov ciklus, krenemo iz jednog grada obiđemo sve ostale i vratimo se u početni, a to po najmanjoj ceni, predstavlja se permutacijom čvorova
 
 - domen hromozoma i domen rešenja ne moraju da se poklapaju
 - npr možemo da koristimo niz realnh vrednosti za hromozom, a da rešenje bude binaran vektor, npr ako je veće od 0.5 onda true, inače false
-- metoda elektromagnetizma - jedinke se biraju iz prostora [0,1], a vektor predstavlja njihovu poziciju u prostoru, onda se nad tim jedinkama mogu primenjivati operatori elektomagnaetnog privlačenja
+- metoda elektromagnetizma - jedinke se biraju iz prostora [0,1], a vektor predstavlja njihovu poziciju u prostoru, onda se nad tim jedinkama mogu primenjivati operatori elektomagnetnog privlačenja
 - iskazni problem se može rešavati tehnikama diskretizacije, radimo sa realnim vrednostima pa ih diskretizujemo
 
 Primer: p-Median
@@ -775,16 +773,16 @@ Primer: p-Median
 
 ### Fitnes funkcija
 - kvantifikuje karakteristike jedinke, tj njihovu prilagođenost
-- primenjuje se nad jedinkokom
+- primenjuje se nad jedinkom
 - obično apsolutna mera kvaliteta jedinke, ali može biti i realativna u odnosu na druge jedinke
 - obično je jednaka funkciji cilja, ali ne nužno
-- u primeru k-median u ravni fitnes funkciju definišemo na isti način kao i funkciju cilja, a to je udlejnost svih tačaka od najbliže odabrane tačke (najbližeg supermarketa)
+- u primeru k-median u ravni fitnes funkciju definišemo na isti način kao i funkciju cilja, a to je udalejnost svih tačaka od najbliže odabrane tačke (najbližeg supermarketa)
 
 ### Razvoj uporednog algoritma
 - koristi se za validaciju predloženog algoritma
 - idealno je taj algoritam egzaktan, tj radi tačno
 - u slučaju NP teških problema dimenzija koju rešavamo uporednim algoritmom je očekivano malo
-- drugi način provere rezultata je poređenje sa već posotjećim reultatima iz literature
+- drugi način provere rezultata je poređenje sa već posotjećim reuzltatima iz literature
 - uporedni algoritmi često korsite istu funkciju cilja i kodiranje 
     - može se implementirati algoritam slučajne pretrage i sistematične pretrage TODO
 
@@ -796,8 +794,8 @@ Primer: p-Median
 - ako neki deo nije pokriven na početku verovatno neće biti obiđen ni kasnije
 - alternativa su determinističke metode, ako po teoriji ili iz iskustva znamo gde bi optimum mogao biti onda krećemo odatle
 
-- veličina metode se određuje empirijski zza konkretnu metodu
-- veća populacija omogućava veći _pokrivenost_ i povećava šasnu za nalaženje globalnog optimuma - **diversifikacija**
+- veličina metode se određuje empirijski za konkretnu metodu
+- veća populacija omogućava veću _pokrivenost_ i povećava šasnu za nalaženje globalnog optimuma - **diversifikacija**
 - mala populacija je efikasnjie i omogućava bržu konvergeniju ka lokalnom optimumu - **intenzifikacija**
 ![](./imgs/init_populacija.png)
 
@@ -805,13 +803,13 @@ Primer: p-Median
 ## `17.` Operator selekcije kod evolutivnih algoritama i elitizam
 
 ### Selekcija
-- proces izbbora jedinki koje će učestvovati u kreiranju naredne generacije
+- proces izbora jedinki koje će učestvovati u kreiranju naredne generacije
 - načelna ideja je dati veću šansu boljim rešenjima
 - selekcioni pritisak (selection pressure) - vreme potrebno da se proizvede uniformna populacija jedinki, odnosno da najbolje jedinke ostave svoje gene svuda
-    - što je veći pritisak ovo će se desiti anije
+    - što je veći pritisak ovo će se desiti ranije
     - kada dođemo u situaciju da su sve jednike slične onda nema više prostora za istraživanje
     - mutacijama možemo da se izvučemo iz ove pozicije
-    - ne treba preterivati se selekcionim pritiskom, ako je visok pritisak raznovrsnost gena se brže smanjuje, pa dolazi do preuranjene konvergencije
+    - ne treba preterivati sa selekcionim pritiskom, ako je visok pritisak raznovrsnost gena se brže smanjuje, pa dolazi do preuranjene konvergencije
 
 ### Pristupi selekciji
 1. Slučajna
@@ -834,8 +832,8 @@ Primer: p-Median
     - biramo učesnike turnira, pobeđuje onaj sa nejvećom funkcijom cilja
 
 4. Rangovska selekcija
-    - uemsto vrednosti fitnes funkcije se koristi samo reedni broj u uređenju populacije
-    - smanjuje se selkcioni pritisak jer se dobrim rešenjima relativizuje značaj
+    - umesto vrednosti fitnes funkcije se koristi samo redni broj u uređenju populacije
+    - smanjuje se selekcioni pritisak jer se dobrim rešenjima relativizuje značaj
     - kod fitnes baziranih selekcija se može desiti da jedinke u nekoj okolini imaju dosta blizak fitnes
 
 ### Elitizam
@@ -848,10 +846,10 @@ Primer: p-Median
 ## `18.` Operator ukrštanja, mutacije, kriterijumi zaustavljanja - ukratko
 
 ### Ukrštanje
-- proces kreiranja novih jeinki - potomaka
+- proces kreiranja novih jedinki - potomaka
 - podrazumevano se koriste operatori
     - ukrštanja - rekombinacija gena
-    - slučjne mutacije - opciona promena nasumičnog gena
+    - slučajne mutacije - opciona promena nasumičnog gena
 
 - jednopoziciono nasumično ukršanje
     - ![](./imgs/jednopozicioni.png)
@@ -877,8 +875,8 @@ Primer: p-Median
 
 - pri poređenju treba voditi računa da bude fer
     - npr isti broj izvršavanj fitnes funkcije
-    - fer je da se eolutivni algoritam izvrši 1000 puta sa 10 jedinki i da se slučajni algoritam izvrši 10 000 puta
-    - nije pametno porediti vreme izvršavanja jer on avisi od jačine računara
+    - fer je da se evolutivni algoritam izvrši 1000 puta sa 10 jedinki i da se slučajni algoritam izvrši 10 000 puta
+    - nije pametno porediti vreme izvršavanja jer on zavisi od jačine računara
 
 ---
 ## `19.` Genetski algoritmi - uvodni koncepti, kanonski genetksi algoritam
@@ -898,10 +896,11 @@ Primer: p-Median
     - nije preterano brz kao i većina populacionih metaheuristika
     - dobra heuristika za rešavanje kombinatornih problema
     - dosta varijatni - različiti mehanizmi ukrštanja, mutacije
-- no free lunch teorema: ni jedan algoritam ne dominira nekim drugim algoritmom, nije bolji u svakom slučaju od drugog
+- **no free lunch teorema**: ni jedan algoritam ne dominira nekim drugim algoritmom, nije bolji u svakom slučaju od drugog
 
 ### Kanonski genetski algoritam (SGA)
-- orignalni genetski algoritam je ravio John Holland se nazziva još i jednostavni (kanonski) GA ili SGA
+- orignalni genetski algoritam je napravio John Holland 
+- naziva se još i jednostavni (kanonski) GA ili SGA
 - drugi genetski algoritmi se razlikuju u 
     - reprezenacijama - kodiranjima i dekodiranjima
     - mutacijama
@@ -913,7 +912,7 @@ inicijalizuj populaciju;
 evaluiraj populaciju; // izračunavanje fitnesa hromozoma
 while nije ispunjen uslov završetka {
     odaberi roditelja za ukrštanje;
-    izvrši ukrštanje u mutaciju;
+    izvrši ukrštanje i mutaciju;
     evaluiraj populaciju;
 }
 ```
@@ -922,11 +921,11 @@ while nije ispunjen uslov završetka {
 
 | karakteristike GA | imeplementacija u SGA | 
 |-----------|-------|
-| reprezzentacija | niz bitova |
+| reprezentacija | niz bitova |
 | ukrštanje | n-poziciono ili ravnomerno
 | mutacija | izvrtanje bitova sa fiksnom verovatnoćom
 | selekcija roditelja| fitnes-srazmerna, tj ruletska|
-| selekcija preživelih | roditelji se potpnuno zamenjuju deocm|
+| selekcija preživelih | roditelji se potpnuno zamenjuju decom|
 | specijalnost | fokus je na ukrštanju, intenzifikacija pretrage |
 
 ### SGA reprezentacija
@@ -942,14 +941,14 @@ while nije ispunjen uslov završetka {
 
 ### Ukrštanje
 1. odaberi roditelja u skupu za ukrštanje, cela populacija je skup za ukrštanje
-2. promešamo podskup oabrnih roditelja (Shuffle), bez ponavljanja
+2. promešamo podskup odabrnih roditelja (Shuffle), bez ponavljanja
 3. za svaki uzastopni par hromozoma se izvrši ukrštanje sa verovatnoćom $p_c$, ako se ne primeni onda se kopiraju roditelji, $p_c$ je obično iz intervala [0.6, 0.9]
 4. za svako dete se primenjuje mutacija sa verovatnoćom $p_m$  po svakom bitu nezavisno
 5. zameni celu populaciju sa novodobijenom populacijom dece
 
 ### SGA operator ukrštanja sa jednom tačkom
 - odabere se slučajna pozicija, manja od broja gena
-- razdvoji svakog roitelja na dva dela po ovoj poziciji na dva dela
+- razdvoji svakog roditelja na dva dela po ovoj poziciji 
 - kreiraj decu razmenom delova između roditelja
 
 ### SGA operator mutacije
@@ -967,10 +966,10 @@ while nije ispunjen uslov završetka {
 ### Mane
 - previše restriktivna reprezentacija
 - mutacija i ukrštanje su primenljivi samo na bitovske i celobroje reprezentacije, nije dovoljno fleksibilno
-- selekcija sotljiva na slučaj kada populacija konvergira, tj bliske fitnes vrednosti
+- selekcija osetljiva na slučaj kada populacija konvergira, tj bliske fitnes vrednosti
 - generisanje populacije se može unaprediti tehnikom eksplicitnog preživljavanja
 
-- koristan za bazično raumevanje genetskog algoritma
+- koristan za bazično razumevanje genetskog algoritma
 - dobar za poređenje sofisticiranijih algoritama
 
 ---
@@ -983,33 +982,33 @@ while nije ispunjen uslov završetka {
     - "glatkija" genotip-fenotip preslikavanje može da poboljša GA
     - npr u običnom kodiranju 15=0111 s 16=1000, totalna promena genotipa a mala promena fenotipa
 
-- šeme kodiranja bairane na drugim reprezentacijama
+- šeme kodiranja bazirane na drugim reprezentacijama
 - numeričke vrendnosti se kodiraju direktno kao
     - celi brojevi
     - realni brojevi u fiksnom zarezu
-    - onda se i operatori diajniraju tako da rade sa ovim tipovima, tj celim ili realnim brojevima
+    - onda se i operatori dizajniraju tako da rade sa ovim tipovima, tj celim ili realnim brojevima
 
 - direktna celobrojna reprezentacija
-    - logična reprezetnacija pri obradi procesianu slika nor
+    - logična reprezentacija pri obradi procesiranju slika npr
     - nekad vrednosti mogu biti kategoričke iz fiksnog skupa, npr {red, green, blue}
     - n-poziciono / ravnomerno ukrštanje radi u ovim situacijama
     - binarna mutacija se mora proširiti, ne može biti smo izvrtanje bitova
-        - mutianje u bliske (slične) vrednosti
+        - mutiranje u bliske (slične) vrednosti
         - mutiranje u nasumične vrednosti, tipično za kategoričke promenljive
 
-- kodiranje relanog domena
+- kodiranje realnog domena
     - npr problem globalne optimiacije $f: R^n \rightarrow R$
     - primer: Ackley-eva funkcija, nezgodan prostor za pretragu, u 2D
     - ![](./imgs/ackley.png)
 
     - preslikavanje na niz bitova:
-        - $z \in [x,y] \subseteq R$ predstavljnei kao niz bitova $\{a_1, ... , a_l\} \in \{0, 1\}^L$
+        - $z \in [x,y] \subseteq R$ predstavljeni kao niz bitova $\{a_1, ... , a_l\} \in \{0, 1\}^L$
         - $[x,y] \rightarrow \{0, 1\}^L$ mora biti inverzno, tj jedan fenotip za svaki genotip
         - $Г : \{0, 1\}^L\rightarrow [x,y]$ definiše reprezentaciju
         - ![](./imgs/realno_preslikvanje.png)
         - samo $2^L$ vrednosti od mogućih beskonačno je moguće kodirati
         - L određuje preciznost rešenja
-        - velika preciynost > dugački hromozomi > spora evolucija
+        - velika preciznost > dugački hromozomi > spora evolucija
 
     - kodiranje može biti direktno uz doradu operatora
 
@@ -1017,31 +1016,31 @@ while nije ispunjen uslov završetka {
     - opšta šema za brojeve u fiksnom arezu
     - ![](./imgs/mutacija_realno.png)
     - ravnomerna mutacija
-        - $x_i'$ se bira ranomerano iz [$LB_i$, UB_i]
+        - $x_i'$ se bira ranomerano iz [$LB_i$, $UB_i$]
     - analogno izvrtanju bitova binarnog koda ili nasumičnom mutiranju kod celih brojeva
-    - ako bi invertovali bitove onda postoji opasnost da malim izmenama mnog menjamo fenotip
+    - ako bi invertovali bitove onda postoji opasnost da malim izmenama mnogo menjamo fenotip
     - neravnomerne mutacije
-        - verovatnoća mutacije može da se menja vremenom i poicijom npr
-        - standardan pristup je dodeljivanje slučajne devijacije svakoj promenljivoj, a atim izvlačenje promenljivih i N(0, d)
+        - verovatnoća mutacije može da se menja vremenom i pozicijom npr
+        - standardan pristup je dodeljivanje slučajne devijacije svakoj promenljivoj, a zatim izvlačenje promenljivih i N(0, d)
         - standardna devijcija d kontroliše udeo promena , npr 2/3 devijacija će se nalaziti u opsegu (-d, +d)
 
 
 - problemi zasnovani na permutacijama
     - objekti se organizuju u odgovarajućem redosledu, npr problem sortiranja, problem trgovačkog putnika (TSP)...
-    - ovakvi problemi se generalno izražaaju permutacijama
+    - ovakvi problemi se generalno izražavaju permutacijama
     - ako postoji n promenljivih, onda je reprezentacija sačinjena od n celih brojeva takvih da se svaki pojavljuje tačno jednom
 
 - mutacije nad permutacijama
     - normalni operatori mutacije bi doveli do nedopustivih rešenja, neka vrednost bi se pojavila više puta a neka bi nestala
-    - vrensoti se moraju menjati bar dvema promenljivama
-    - verovtnoća mutacije sada opisuje vrednost promena operatora nad celim rešenjme, a ne nad pojedinačnim poicijama
+    - vrednsoti se moraju menjati bar dvema promenljivama
+    - verovtnoća mutacije sada opisuje vrednost promena operatora nad celim rešenjme, a ne nad pojedinačnim pozicijama
     - pitanje je koliko ekstraman efekat želimo na permutacija ima
-    1. način - izaberemo dve pozicije, alel sa druge poicije se pomeri pored onog sa prve, dok se ostali ispomeraju
+    1. način - izaberemo dve pozicije, alel sa druge pozicije se pomeri pored onog sa prve, dok se ostali ispomeraju
         - 1**2**34**5**6789 > 1**25**346789
-        - ovim se adržava veći eo uređenja onosno informacije o prethodnom susedstvu, što je dobro jer ne želimo previše dramatične promene
+        - ovim se zadržava veći deo uređenja onosno informacije o prethodnom susedstvu, što je dobro jer ne želimo previše dramatične promene
     2. mutacije zasnovane na zameni
-        - odaberu se slučajno dve poicije i zamene mesta
-        - adržava s većina uređenja
+        - odaberu se slučajno dve pozicije i zamene mesta
+        - zadržava se većina uređenja
         - 1**2**34**5**6789 > 1**5**34**2**6789 
         - manje intenzivna promena
     3. mutaciije zasnovane na inverziji
@@ -1049,49 +1048,49 @@ while nije ispunjen uslov završetka {
         - 1**2345**6789 > 1**5432**6789 
         - intenzivnija promena uređenja od prethodna dva
     4. mutacije zasnovane na mešanju
-        - izabere se podskup pozicija na slučajan način, pa se vrednosti na tim pozzicijama slučajno reorganizuju
+        - izabere se podskup pozicija na slučajan način, pa se vrednosti na tim pozicijama slučajno reorganizuju
         - 1**2345**6789 > 1**3542**6789 
-        - poicije ne moraju biti uzastopne
+        - pozicije ne moraju biti uzastopne
 
 ---
 ## `21.` Ostali operatori ukrštanja kod genetski algoritama
 
 - jednopoziciono ukrštanje
-    - kvalitet avisi od redosleda promenljivih u rešenju
-    - geni sa razzličitih krajeva hromozoma se nikad neće naći u istom potomku
-    - ovo je poziciona proistrasnost, a nju ne želimo
+    - kvalitet zavisi od redosleda promenljivih u rešenju
+    - geni sa različitih krajeva hromozoma se nikad neće naći u istom potomku
+    - ovo je poziciona pristrasnost, a nju ne želimo
     - može biti korisno ukoliko znamo strukturu problema, ali u opšem slučaju nepoželjno
 
 - n-poziciono ukrštanje
-    - bira se n slučajnih poicija
-    - radvoji se po tim pozicijama
+    - bira se n slučajnih pozicija
+    - razdvoji se po tim pozicijama
     - alternirajući delovi se spajaju
-    - uopštenje jednopozicionog ukrštanja, a poiciona pristrasnost i dalje postoji
-    - ako je n parno onda uvek avršavaju krajni delovi u istom potomku, a ako je neparno onda avršavaju u različitim potomcima
+    - uopštenje jednopozicionog ukrštanja, a poziciona pristrasnost i dalje postoji
+    - ako je n parno onda uvek završavaju krajnji delovi u istom potomku, a ako je neparno onda završavaju u različitim potomcima
 
 - ravnomerno ukrštanje
     - kao bacanje novčića za svaki gen, ako padne _glava_ ide u jednog potomka a za _pismo_ ide u drugog potomka
-    - drugo dete je inver prvog
+    - drugo dete je inverz prvog
     - nasleđivanje je nezavisno od pozicije
 
 ### Ukrštanje ili mutacija?
 - pitanje nekoliko decenija
-- od problema zaisi šta je bolje
+- od problema zavisi šta je bolje
 - najbolje oba
-- bez mutacije bi se zagljavljivali u lokalnim ekstrmumima, rešenje bi zavisilo od polaznog rešenja, a radili bi samo kombinovanj postojećih vrednosti
+- bez mutacije bi se zagljavljivali u lokalnim ekstrmumima, rešenje bi zavisilo od polaznog rešenja, a radili bi samo kombinovanje postojećih vrednosti
 - kad bi imali samo mutaciji išli bi previše nasumično i teško bi konvergiralo
 - samo ukrštanje ne bi radilo, dok same mutacije bi
 - eksploracija - otkrivanje novih oblasti u prostoru pretrage
     - mutacije
     - uvodi novu informaciju i time proširuje prostor pretrage
-    - mutacija vrši u eksploataciju jer mewa lokalnu okolinu trenutnog rešenja
+    - mutacija vrši u eksploataciju jer gleda lokalnu okolinu trenutnog rešenja
 - eksploatacija - optimizacija u okviru postojećih oblasti (kombinovanje rešenja)
     - ukrštanje je radi
     - pravi kombinaciju roditeljskih hromozoma
     - ako alel za globalni optimum ne postoji onda globalno rešenje nikad neće biti dostignuto
 - postoji kooperacija i konkurencija između njih
-- da bi pogodili optimum oično je potrebna srećna mutacija
-- ukrštanjem se ne menja frekvencija genski alela, ako imamo 50% nula na prvom bitu posle n ukrštanje ćemo imati ?%  TODO
+- da bi pogodili optimum obično je potrebna srećna mutacija
+- ukrštanjem se ne menja frekvencija genski alela, ako imamo 50% nula na prvom bitu posle n ukrštanje ćemo imati isto?%  TODO
 
 ### Ukrštanje za direktno realno kodiranje
 - kod diskretnog domena (binarni ili celobrojni)
@@ -1100,7 +1099,7 @@ while nije ispunjen uslov završetka {
     - treba formirati decu koja su imeđu roditelja, tzv Aritmetičko ukrštanje
     - $z_i= \alpha x_i + (1-\alpha)y_i$, gde je $\alpha : 0 \le \alpha \le 1$
     - dete je linearna kombinacija roditelja
-    - paametar $\alpha$ može biti
+    - parametar $\alpha$ može biti
         - konstanta, za ravnomerno aritmetičko ukrštanje
         - promenljiva, npr da zavisi od starosti populacije
         - odabrana slučajno svaki put
@@ -1119,7 +1118,7 @@ while nije ispunjen uslov završetka {
     
 - celovito aritmetičko ukrštanje
     - najčešće se koristi
-    - zadržava se 1 dete, a imamo dupplo više ukrštanja
+    - zadržava se 1 dete, a imamo duplo više ukrštanja
     - roditelji $<x_1, ... , x_n>$ i $<y_1, ... , y_n>$
     - ovde jedinke nemaju veliki diverzitet pa je potrban veći stepen mutaciije
     - npr za $\alpha = 0.5$
@@ -1133,17 +1132,17 @@ while nije ispunjen uslov završetka {
     - opšta šema
         1. odaberi segmenti hromozoma prvog roditelja
         2. iskopiraj ovaj segment u prvo dete
-        3. iskopirati preostale vrednosti (brojeve) tako da kopiranje počinje denso od kopiranog segmenta korišćenjem redosleda datog u drugom roditelju
+        3. iskopirati preostale vrednosti (brojeve) tako da kopiranje počinje desno od kopiranog segmenta korišćenjem redosleda datog u drugom roditelju
         4. identično za drugo dete
     - ![](./imgs/ukrstanje_prvog_reda.png)
     
 - delimično ukrštanje (RMH)
-    - opšta šema a roditelje P1 i P2:
+    - opšta šema za roditelje P1 i P2:
     1. odaberi slučajan segment i kopiraj ga od P1
     2. počev od pozicije početnog segmenta, traži elemente u tom segmentu za P2 koji nisu bili kopirani
     3. za svaki od ovih $i$ pronađi vrednost $j$ iz P1 koja je kopirana na njegovo mesto
-    4. postavi $i$ na poziciju auzetu sa $j$ u P2, pošto zzasigurno znamo da j neće biti tamo, jer je već u detetu
-    5. ako je mesto na kojem se nalai j u P2 već zauzeto vrednošću k, onda postavi i na poziciju koju zauima k u P2
+    4. postavi $i$ na poziciju zauzetu sa $j$ u P2, pošto zasigurno znamo da j neće biti tamo, jer je već u detetu
+    5. ako je mesto na kojem se nalai j u P2 već zauzeto vrednošću k, onda postavi i na poziciju koju zauzima k u P2
     6. preostale elemente kopirat iz P2
     - drugo dete se kreira analogno
     - ![](./imgs/rmh.png)
@@ -1175,7 +1174,7 @@ while nije ispunjen uslov završetka {
     - $E(n_i) = \mu f(i)/<f>$
     - kvazi verovatnoća bazirana na fitnes vrednostima
     - $f(i)/<f>$ - normalizovan fitnes
-    - $\mu$ - vlična populacije
+    - $\mu$ - velična populacije
     - $f(i)$ - fitnes jedinke
     - $<f>$ - prosečan fitnes opulacije
 
@@ -1199,23 +1198,23 @@ while nije ispunjen uslov završetka {
     - pokušava da prevaziđe problem fitnes-srazmerne selekcije
     - vrednost fitnesa nema apsolutan već relativan značaj ovde
     - najbolja jedinka ima najviši rang $\mu$, a najgori rang 1
-    - trošak na sortiranje je obično zanemariv
+    - trošak na sortiranje je obično zanemarljiv
 
 - turnirska selekcija
     - ovo može biti usko grlo paralelnim mašinama
-    - oslanja se na pristustvo eksternh fitnes funkcija koje možda ne postoje uvek, npr evolucija botova za igrice (ovde ne znamo fitnes ali možemo da utvrdimo ko bolje igra)
+    - oslanja se na pristustvo eksternih fitnes funkcija koje možda ne postoje uvek, npr evolucija botova za igrice (ovde ne znamo fitnes ali možemo da utvrdimo ko bolje igra)
     - odaberemo k članova na slučajan način, potom se odabere najbolji od njih
     - ostale jedinke se biraju na isti način
     - verovatnoća odabira jedinke i zavisi od:
         - ranga i 
-        - vrednosti k, veće k je veći selkcioni prtisak
-        - da li se takmičari biraju sa vraćanjem, odabir be vraćanaj pojačava elekcioni pritisak
+        - vrednosti k, veće k je veći selekcioni prtisak
+        - da li se takmičari biraju sa vraćanjem, odabir sa vraćanjem pojačava selekcioni pritisak
     - za k=2, vreme potrebno da najbolja jedinka preuzme populaciju je ista kao kod linearnog rangiranja za s=2*p
 
 - selekcija preživelih
     - metoda slična onoj za odabira roditelja za ukrštanje
     - u generacijskom modelu trivijalno, brišu se najstariji, tj svi roditelji
-    - u opštem slučaju se mogu birati/brisati bilo koje jedinke iz skupa roitelja i dece
+    - u opštem slučaju se mogu birati/brisati bilo koje jedinke iz skupa roditelja i dece
     - dve grupe pristupa:
     1. selekcija zasnovana na starosti
         - kako kod SGA
@@ -1245,26 +1244,26 @@ _Primer:_ za binarne niske dužine 6, primer shheme je 1\*10\*1 gde svaka shema 
 **Teorema:** 
 $$E(m(H, t+1)) \ge m(H, t)f(H)/a_t[1-p]$$
 - $m(H,t)$ - broj niski koje pripadaju shemi H u generaciji t
-    - broj jdinki koje se ukalapju u prethodnoj iteraciji utiče na broj jedinki koje će se preneti u narednu generaciju
+    - broj jedinki koje se uklapaju u prethodnoj iteraciji utiče na broj jedinki koje će se preneti u narednu generaciju
 - $f(H)$ - prosečan fitnes sheme H, 
     - što je veći fitnes neke posmatrane sheme to je veća šansa da se broj takvih jedinki poveća 
-- $a_t$ - prosečan fitnes u geenraciji t
+- $a_t$ - prosečan fitnes u generaciji t
 - p - verovatnoća da je ukrštanje ili mutacija _razbiti_ shemu 
     - $p=\delta(H)/(l-1)p_c+o(H)p_m$
-    - l - dužina genotipa
+    - $l$ - dužina genotipa
     - $p_c$ i $p_m$ - verovatnoće ukrštanja i mutacije
 
 
-- očekivani broj jedinki koje imaju određenu shemu H u nekoj generaciji t+1 je veći od broja jedinki koji se uklapaju u shemu H puta fitnes sheme kroz proecan fitnes svih jedinki u papulaciji
+- očekivani broj jedinki koje imaju određenu shemu H u nekoj generaciji t+1 je veći od broja jedinki koji se uklapaju u shemu H puta fitnes sheme kroz prosečan fitnes svih jedinki u populaciji
 - što je udaljenost prve i poslednje fiksirane pozicije veća veća je i šansa de će se ukrštanjem razbiti shema
 
 ---
 ## `24.` Genetsko programiranje - pregled koncepata i opšta shema
-- ravijeno u Americi 90ih godina, J. Koza
+- razvijeno u Americi 90ih godina, J. Koza
 - primenjuje se u mašinskom učenju, predikcija, klasifikacija
 - konkurentan neuonskim mrežama i sličnim metodama, ali je sporo i zahteva ogromen populacije
 - Specijalne karakteristike:
-    - nelinearni homozomi, stabla, grafovi
+    - nelinearni hromozomi, stabla, grafovi
     - mutacija je moguća ali ne neophodna, za razliku od GA
 
 - Tehničke karakteristike:
@@ -1272,7 +1271,7 @@ $$E(m(H, t+1)) \ge m(H, t)f(H)/a_t[1-p]$$
 |  |  |
 |---|---|
 | reprezentacija | stablo|
-| ukrštanje | razmena stabala, nema smisla višepoicioni|
+| ukrštanje | razmena stabala, nema smisla višepozicioni|
 | mutacija | slučajna promena u stablu,slučajno odabrano podstablo zamenimo slučajno generisanim|
 | selekcija roditelja | fitnes srazmerna |
 | selekcija preživelih | generacijska zamena |
@@ -1280,7 +1279,7 @@ $$E(m(H, t+1)) \ge m(H, t)f(H)/a_t[1-p]$$
 
 _Primer:_ Banka odlučuje da li će nekome dati kredit. Na osnovu istorijski podataka pravimo stablo odlučivanja. Npr gledamo broj dece, platu i bračni status.
 - kada generišemo stablo odlučivanje ide brzo
-- tačke prostora su kandidat stabla, vliki prostor mogući rešenja
+- tačke prostora su kandidat stabla, veliki prostor mogućih rešenja
 ```
 IF formula THEN dobar ELSE loš
 ```
@@ -1292,7 +1291,7 @@ IF broj_dece=2 AND plata>80000 THEN dobar loš
 - fitnes formule - procenat dobro klasifikovanih primera
 - prirodna reprezentacija formule (genotip) je stablo
 - imamo tehniku koja ne zapada u lokalne optimume, globalnija je
-- genetski algoritam kreće od slučajno generisane populacije stabala, igeneriše se da prati ograničenja operatora
+- genetski algoritam kreće od slučajno generisane populacije stabala, izgeneriše se da prati ograničenja operatora
 - formiraju se dopustiva rešenja
 
 ### Reprezentacija stabla
@@ -1305,26 +1304,26 @@ IF broj_dece=2 AND plata>80000 THEN dobar loš
     - ![](./imgs/program.png)
 
 
-- u genetskih algoritmima, evolutivnim strategijma, avolutivnom programiranju hromozomi su linearne strukture - nizovi bitova, celih brojeva, relanih brojeva, permutacije... veličina hromooma je fiksna
-- stablo-hromozomi su nelinearne strukturei  stablo može biti proivoljne dubine i širine
+- u genetskih algoritmima, evolutivnim strategijma, evolutivnom programiranju hromozomi su linearne strukture - nizovi bitova, celih brojeva, relanih brojeva, permutacije... veličina hromozoma je fiksna
+- stablo-hromozomi su nelinearne strukturei  stablo može biti proizvoljne dubine i širine
 
 ### Reprezentacija stabla
-- simbolički irazi mogu biti definisani pomoću
+- simbolički izrazi mogu biti definisani pomoću
     - skupa termova T
     - skupa funkcija F sa pridruženim arnostima
-- dalje se može koristiti sledećarekurivna definicija
+- dalje se može koristiti sledeća rekurzivna definicija
 1. Svaki $t \in T$ je korektan izraz
-2. $f(e_1, ... ,e_n)$ je korektan izzraz ako $f \in F$, $arity(f)=n$ i $e_1, ... ,e_n$ su korektni izrazi
+2. $f(e_1, ... ,e_n)$ je korektan izraz ako $f \in F$, $arity(f)=n$ i $e_1, ... ,e_n$ su korektni izrazi
 3. ne postoje druge korektne forme izraza
-- u opštem slučaju irazi u GP nisu tipizirani, tj svaki $f \in F$ može uzeti bilo koji $g \in F$ kao argument
+- u opštem slučaju izrazi u GP nisu tipizirani, tj svaki $f \in F$ može uzeti bilo koji $g \in F$ kao argument
 
 ### Generisanje potomaka
-- genetsko prograiranje koristi ILI ukrštanje ILI mutaciju, ali ne oba
-- a raliku od genetski algoritama koji koriste i ukrštanje i mutaciju
+- genetsko prograiranje koristi **ILI** ukrštanje **ILI** mutaciju, ali ne oba
+- za razliku od genetski algoritama koji koriste i ukrštanje i mutaciju
 - ![](./imgs/ga_vs_gp.png)
 
 ### Selekcija
-- selekcija roditelja je obično fitnes-sramerna
+- selekcija roditelja je obično fitnes-srazmerna
 - selekcija u veoma velikim populacijama
     - populacija se rangira prema fitnesu i podeli u dve grupe
     - grupa 1 - najbolji x% populacije
@@ -1333,7 +1332,7 @@ IF broj_dece=2 AND plata>80000 THEN dobar loš
     - procenti su određeni empirijski i zavise od veličine populacije, za populacije 1000, 2000, 4000, 8000, x = 32%, 16%, 8%, 4%
 - selekcija preživelih
     - standardni pristup je generacijski
-    - model sa stabilnim stanjem i elitizmom potaje popularan u poslednje vreme
+    - model sa stabilnim stanjem i elitizmom postaje popularan u poslednje vreme
 - zbog veći mogućnosti je ovde potrebna veća kontrola, malo veća doza elitima, manja doza nasumičnosti, da bi se očuvao neki kvalitet
 
 ### Inicijalizacija populacije
@@ -1351,10 +1350,10 @@ IF broj_dece=2 AND plata>80000 THEN dobar loš
 - standardna GP inicijalizacija: kombinovan pristup koji koristi i balansirani i ograničeni pristup, svaki po pola populacije
 
 ### Pristup zasnovan na povećanju
-- Bloat - tendencia ka udebljanju, stbla unutar populacije vremenom rastu
+- Bloat - tendencija ka udebljanju, stbla unutar populacije vremenom rastu
 - debata u naučnim istraživanjima
-- okamova britva: ako imamo dva algoritma sa identičnim performansama bolje korsititi jednostavniji
-- potrebne su kontramere poput sprečavanja upotrebe operatora koji prave prevelikiku decu i penalizacija prevelikih jedinki
+- **Okamova britva**: ako imamo dva algoritma sa identičnim performansama bolje korsititi jednostavniji
+- potrebne su kontramere poput sprečavanja upotrebe operatora koji prave preveliku decu i penalizacija prevelikih jedinki
 
 _Primer:_
 - ![](./imgs/ga_regresija.png)
@@ -1362,13 +1361,13 @@ _Primer:_
 - potencijalno beskonačna petlja
 
 ---
-## `25.` Operator mutacije i ukrštanja kod geentskog programiranja.
+## `25.` Operator mutacije i ukrštanja kod genetskog programiranja.
 
 ### Mutacija
 - najčešće: zameni slučajno odabrani podstablo novim slučajno generisanim stablom
 - ![](./imgs/ga_mutacija.png)
 - mutacija ima dva parametra
-    - $p_m$ - verovatnoćaodabira mutacije, u suprotnom je selekcija, savet je da bude blisko nuli, npr 0.05
+    - $p_m$ - verovatnoća odabira mutacije, u suprotnom je selekcija, savet je da bude blisko nuli, npr 0.05
     - verovatnoća odabira unutrašnje tačke, tj korena podstabla za zamenu
 - veličina deteta može da bude veća od veličine roditelja
 - ako se ovo dešava kroz generacije stabla postaju sve veeća i kompleksnija
@@ -1388,12 +1387,12 @@ _Primer:_
 - Pčele
     - kooperacija u okviru kolonije
     - mahanjem krilima regulišu temperauru unutar košnice
-    - efikasnost se postiže specijaliacijom - podelom posla u okviru kolonije
-    - komunikacija - ivor hrane se koristi u skladu sa njihovom blizinom saću i kvalitetom
+    - efikasnost se postiže specijalizacijom - podelom posla u okviru kolonije
+    - komunikacija - izvor hrane se koristi u skladu sa njihovom blizinom saću i kvalitetom
 
 - Ose
     - tragači za hranom, tragači za vodom, roditelji
-    - složena gnzda - horiontalne kolone, zaštitne opne, centralni ulazni hol
+    - složena gnezda - horizontalne kolone, zaštitne opne, centralni ulazni hol
     - nema centralizovanog sistema, nekako indirektno komuniciraju
 
 - Termiti
@@ -1413,14 +1412,14 @@ _Primer:_
 |  |  |
 |---|---|
 | fleksibilnost | kolonija savladava unutrašnje preturbacije kao i spoljašne izazove, kombinacija slučajnosti i onoga što se već radi, primenjuju diversifikaciju i intensifikaciju |
-| robusnost | zadaci se avršavaju i ako neke jedinke zakažu| 
+| robusnost | zadaci se završavaju i ako neke jedinke zakažu| 
 | decentralizovanost | ne postoji centralni mehanizam kontrole niti koncept lidera |
 | samoorganizovanost | putevi do rešenja vremenom iskrsnu, nisu unapred predefinisani |
 |
 
 - jednostavne jedinke mogu da grade globalno kompleksno ponašanje
 
-### ikosistem smulacija
+### ikosistem simulacija
 - svaki agent X ima dodeljena dva nasumična protivnika A i B
 - ![](./imgs/ikosistem1.png)
 - pravilo za X je da se postavi tako da bude na putu između A i X
@@ -1433,9 +1432,9 @@ _Primer:_
 ### Problemi sa inteligentnim rojevima
 - teško se programira jer je teško kodirati i dekodirati
 - rešenja iskrsnu unutar sisitema
-- rešenja su reultat ponašanja i interakcije između pojedinačnih agenata (jedinki) u sistemu
+- rešenja su rezultat ponašanja i interakcije između pojedinačnih agenata (jedinki) u sistemu
 
-### Glavni sastojci samoorganiacije
+### Glavni sastojci samoorganizacije
 - pozitivna povratna sprega - positive feedback
     - nagrada pozitivnog ponašanja
 - negativna povratna sprega - negative feedback
@@ -1443,14 +1442,14 @@ _Primer:_
 - pojačavanje i smanjivanje slučajnosti
 - oslanjanje na međusobne interakcije agenata
 
-### Svojstva samoorganiazcije
-- kreiranje struktura - gnda, tragovi, socijalno uređenje- hijerarhija
-- promene su reulat postojanja višestrukih puteva razvoja - nekoordinisane i koordinisane faze
+### Svojstva samoorganizacije
+- kreiranje struktura - gnezda, tragovi, socijalno uređenje- hijerarhija
+- promene su rezulat postojanja višestrukih puteva razvoja - nekoordinisane i koordinisane faze
 - postojanje više stabilnih stanja - npr dva jednako dobra izvora hrane
 
 ### Tipovi interakcije socijalnih insekata
 - direktna interakcija
-    - razmena tečnosti i hrane, viuelni kontak, hemijski kontakt - feromoni
+    - razmena tečnosti i hrane, vizuelni kontak, hemijski kontakt - feromoni
 - indirektna interakcija - stigmergija - stigmergy
     - individualno ponašanje menja okruženje koje posle izaziva promenu ponašanja drugih individua
     - kod mrava stigmergija eliminiše potrebu za direktnom međusobnom komunikacijom
@@ -1463,20 +1462,20 @@ _Primer:_
     - kooperativni transport
     - igradnja složenih struktura - gnezda
 
-### Optiizacija ruta mravima - TSP
+### Optimizacija ruta mravima - TSP
 - $d_{ij}$ - udaljenost između gradova i j
 - $\tau _{ij}$ - količina feromona na luku (i,j)
 - m agenata (mrava) 
 - u svakom koraku, veroatnoća odlaska od grada i do grda j je srazmerna $(\tau_{ij})^a (d_{ij})^{-b}$
-    - verovatnoća odlaska do nekog graa je srazmerna količini feromona a obruto srazzmerna udaljenosti
+    - verovatnoća odlaska do nekog grada je srazmerna količini feromona a obrnuto srazmerna udaljenosti
 - feromoni isparavaju po fomruli $\tau (1 - \rho) \tau$
 - krećemo od nasumične tačke, graf je hamiltonov ciklus pa je svejedno odakle krećemo
 - ![](./imgs/tsp_mravi.png)
 
-### rutiranje u komunikacionim mrežama
-- agenti započinju put od polanog ka ciljnom čvoru
-- svaki agent ažurira svoju tabeču rutiranja i komunicira sa ostalima
-- ideja: ako ideš ka ciljnom čvoru u kom sam ja veeć bio ranije, daću ti savet kuda da ideš
+### Rutiranje u komunikacionim mrežama
+- agenti započinju put od polaznog ka ciljnom čvoru
+- svaki agent ažurira svoju tabelu rutiranja i komunicira sa ostalima
+- ideja: ako ideš ka ciljnom čvoru u kom sam ja već bio ranije, daću ti savet kuda da ideš
 - uticaj agenta (validnost saveta) sa smanjuje sa starenjem
 - agenti se veštački usporavaju na zagušenim čvorovima (granama) - simulacija realnosti
 - sporije ispravanje feromona > intensifikacija rešenja, saveti ostaju isit i vodi se sličnim rešenjima
@@ -1484,16 +1483,16 @@ _Primer:_
 ### Klasterovanje
 - ![](./imgs/klaster_mravi.png)
 - mravi se kreću ka hrani, a ona je centroid klastera
-- izzolovana hrana ima veću šansu da bude pokupljena od strane agenta koji nosi tovar
+- izolovana hrana ima veću šansu da bude pokupljena od strane agenta koji nosi tovar
 - verovatnoća uzimanja tovara: $p_p = [k_1 / (k_1 + f)]^2$
-- f - gustina hrane u datoj okolini
-- agent koji nosi tovar ima veću šansu da ispusti tovar ukoliko u bliini postoji drugi tovar: $p_d = [f / (k_2 + f)]^2$
+- $f$ - gustina hrane u datoj okolini
+- agent koji nosi tovar ima veću šansu da ispusti tovar ukoliko u blizini postoji drugi tovar: $p_d = [f / (k_2 + f)]^2$
 - operatori se moraju direktno prilagoditi problemu
 
 ### Podela posla
-- _Messor barbarous_ - mravi u jugoistočnojŠpaniji, donose hranu od ivora ka gnezdu u brigadama od šestoro radnika
-- prvo manji mravi izviđači uzimaju hranu sa izvora i nose je duž puta dok ne setnu veće radnike, prrelaze manji put i troše manje energije
-- veći radnici preuzimaju hranu i nose je dalje dok se manji vraćaju naazd do izvora
+- _Messor barbarous_ - mravi u jugoistočnoj Španiji, donose hranu od izvora ka gnezdu u brigadama od šestoro radnika
+- prvo manji mravi izviđači uzimaju hranu sa izvora i nose je duž puta dok ne sretnu veće radnike, prelaze manji put i troše manje energije
+- veći radnici preuzimaju hranu i nose je dalje dok se manji vraćaju nazad do izvora
 - ![](./imgs/spanski_mravi.png)
 - slično organizaciji amerčkog tacko bella
 
@@ -1504,23 +1503,23 @@ _Primer:_
 
 ### Kolektivna robotika
 - reprodukcija kolektivne koordinacije sa grupom veoma jednostavnih robota
-- roboti su ajedno gurali kutiju
-- možda ne najefikasniji način, ali je potencijalno fleksibilan i pogodan za prilagođavanje pod najraličitijim okolnostima
+- roboti su zajedno gurali kutiju
+- možda ne najefikasniji način, ali je potencijalno fleksibilan i pogodan za prilagođavanje pod najrazličitijim okolnostima
 - potrebno je adekvatno definisati pravila
-- npr imamo algoritm ponašanje i roboti se prilagođavaju životu na drugoj planeti
+- npr imamo algoritam ponašanja i roboti se prilagođavaju životu na drugoj planeti
 
 ### Izgradnja složenih struktura
 - agenti se pomeraju nasumično unutar 3D mreže
 - agent postavlja ćeliju/ciglicu svaki put kad pronađe stimulativnu konfiguraciju
 - postoji tabela pravila za stimulativne konfiguacije
 - pozicija je stimulativna npr ako ima ciglicu pored ili ispod
-- prostor mogućnosti stimulativnih ivdenihh konfiguracija je ogroman
+- prostor mogućnosti stimulativnih izvdenih konfiguracija je ogroman
 - ![](./imgs/slozene_strukture.png)
 
 ### Opasnost pravila
 - mravi atnici napravili krug smrti
 - krug prečnika 400 metara i svakom mravu je trebalo oko 2 i po sata da ga obiđe
-- veliki broj mrava uginuoo jer nisu mogli da izađu iz kruga, nekoliko je uspelo da se izvuče
+- veliki broj mrava uginuo jer nisu mogli da izađu iz kruga, nekoliko je uspelo da se izvuče
 
 ---
 ## `27.` Optimizacija rojevima čestica - opšti koncepti i osnovni algoritam
@@ -1529,19 +1528,19 @@ _Primer:_
 - rojevi čestica su na neki način slični celularnim automatima - CA:
     - svaka ćelija ažurira svoje stanje paralelno sa ostalim
     - svaka nova vrednost neke ćelije zavisi od starih vrednosti i od vrednosti svojih suseda
-    - sve ćelije se ažuriraju primernom istog pravila
+    - sve ćelije se ažuriraju primenom istog pravila
 - ćelije se menjaju iterativno
 - PSO nije nastao pre CA, nego se posle ispostavilo da liče
 - čestice unutar roja se mogu poistovetiti sa ćelijama unutar CA, samo se njihova stanja menjaju u mnogo dimenzija istovrermeno
 
-- James Kennedy i Russell Eberhart: _Čestice unutar roja imitiraju socijalno ponašanje ljudi ili insekata. Čestice (jedinke) interaguju međusobno dok uče i sopstvenog iskustva, što postepeno pomera populaciju u pravcu boljih reiona rešenja problema._
-- čestice a ne tačke jer brina i ubranje više priliče česticama nego tačkama
+- James Kennedy i Russell Eberhart: _Čestice unutar roja imitiraju socijalno ponašanje ljudi ili insekata. Čestice (jedinke) interaguju međusobno dok uče i sopstvenog iskustva, što postepeno pomera populaciju u pravcu boljih regiona rešenja problema._
+- čestice a ne tačke jer brzina i ubrzanje više priliče česticama nego tačkama
 
-- imamo kognitivnu komponentu - znamo šta smo radili, gde se nalaimo, delimično vivimo šta drugi rade
+- imamo kognitivnu komponentu - znamo šta smo radili, gde se nalazimo, delimično vidimo šta drugi rade
 
-- ahtevna metoda, uopštenija od mravljih kolonija, lakše se prilagođava posmatranom problemu
+- zahtevna metoda, uopštenija od mravljih kolonija, lakše se prilagođava posmatranom problemu
 
-- za probleme u relanom, diskretnom ili mešovitom prostoru pretrage
+- za probleme u realnom, diskretnom ili mešovitom prostoru pretrage
 - za probleme sa višestrukim lokalnim optimumima, ograničenjima
 - za probleme višeciljne, dinamičke optimizacije
 
@@ -1567,17 +1566,17 @@ until termination_criterion_met()
 ```
 
 ---
-## `28.` Geometrijska interpretacija optimizacije rejevima čestica i primeri.
+## `28.` Geometrijska interpretacija optimizacije rojevima čestica i primeri.
 
 ### Inercijalna težina
 ![](./imgs/inercijalna.png)
 - w predstavlja inerciju
 - njom kontrolišemo eksploraciju i eksploataciju
-    - $w \ge 1$ - brzina raste tokom vremena, pa roj divergria
+    - $w \ge 1$ - brzina raste tokom vremena, pa roj divergira
     - $0 < w < 1$ - čestica usporava pa konvergencija zavisi od vrednsoti $c_1$ i $c_2$
     - $w < 0$ - brzina se smanjuje tokom vremena, na kraju se smanji na 0 i time se zaustavlja algoritam
 - manja brzina > manje istražuje prostor > manje diversifikacija
-- ako se brzina poeća čestice divergiraju, tj sve više se udaljavaju jedna od druge
+- ako se brzina poveća čestice divergiraju, tj sve više se udaljavaju jedna od druge
 - empirijski je pokazano da dobre rezulatet daju vrednosti
     - $w=0.7298$
     - $c_1 = c_2 = 4.9618$
@@ -1595,13 +1594,13 @@ until termination_criterion_met()
 ### Ako imamo jednu česticu
 - nema nasumičnosti, tj stohastičke komponente
 - postoji jedna dimenzija
-- unapred oređene počenta pozicija i brzina
+- unapred određene počenta pozicija i brzina
     - $v \leftarrow wv + c_1(p_i-x) + c_2(p_g-x$)
     - $x \leftarrow x + v$
 - ako je $w=0.7,\ c_1=c_2=0.7$, znamo početne pozicije i brzinu
 - posmatramo $f(x)=x^2$ na $[-20, 20]$
 - imamo dva slučaja
-1. Prve dve poziccije su sa iste strane minimuma, npr x=-20 i v=3.2
+1. Prve dve pozicije su sa iste strane minimuma, npr x=-20 i v=3.2
     - pošto je lični najbolji uvek jednak x čestica nikad neće moći da dostigne minimum, prerana konvergencija
     - nema neke tendencije da cik cak potezima dođe do globalnog optimuma bez stohastičk komponente
 2. Pre dve pozicije okružuju minimum, npr x=-2, v=6.4
@@ -1610,7 +1609,7 @@ until termination_criterion_met()
 
 
 ### Putanja dve čestice
-- interakcije dve čstce se modeluje grafom uticaja
+- interakcije dve čestice se modeluje grafom uticaja
     - dva istraživača i dve memorije
     - svaki istraživač prima infomracije od dve memorije ali informiše samo jednu memoriju  
 ![](./imgs/graf_uticaja.png)
@@ -1629,14 +1628,14 @@ until termination_criterion_met()
 
 
 ### Potencijalno opasno svojstvo
-- ako je lična najbolja pozicija jednnaka globalno najboljoj i kada je to jednako trenutnoj poziciji: $x_i = p_i = p_g$
-- tada ažuriranje brzine zavisi samo od $w*v_i$, tj pormena brine je 0 pa pomeraj zavisi samo od inercije
+- ako je lična najbolja pozicija jednaka globalno najboljoj i kada je to jednako trenutnoj poziciji: $x_i = p_i = p_g$
+- tada ažuriranje brzine zavisi samo od $w*v_i$, tj promena brzine je 0 pa pomeraj zavisi samo od inercije
 - ako se ovo ponovi u više iteracija $w*v_i \rightarrow 0$, tj brzina se smanjuje na 0
 - rešenje: omogućiti da globalno najbolja čestica vrši lokalnu pretragu i koristi mutacije da prekine ovo stanje
 
 ### Ogoljeni PSO
-- ako izbcimo brzinu
-- ako su $p_i$ i $p_g$ konstantne, kanonski PSO pretražuje prostor pretrage praćenjem normalne distribuje sa centrom između $p_i$ i $p_g$
+- ako izbacimo brzinu
+- ako su $p_i$ i $p_g$ konstantne, kanonski PSO pretražuje prostor pretrage praćenjem normalne distribucije sa centrom između $p_i$ i $p_g$
 
 ### Binarni PSO
 - pozicija se ažurira prema formuli: $x_{ij}(t+1) = 1\ za\ U(0,1)<sig(v_{ij}(t+1))$, inače $x_{ij}(t+1) = 0$
@@ -1646,11 +1645,11 @@ until termination_criterion_met()
 ## `29.` Varijante gbest i lbest algoritma i topologije uticaja.
 ### Topologija uticaja
 ![](./imgs/topologija_uticaja.png)
-- prva je kopletna topologija, tj jedinka se ugleda na sve
-- druga je topologija kada se gledaju samo dve suseda
-- treca je kada se sve jedinke ugledaju na jednu
+- prva je kompletna topologija, tj jedinka se ugleda na sve
+- druga je topologija kada se gledaju samo dva suseda
+- treća je kada se sve jedinke ugledaju na jednu
 - ne koristimo globlano najbolji za socijalnu komponentu, već imamo unapred zadatu topoplogiju uticaja zadatu na početku, ugledamo se na unapred zadatke susede, ili na neki broj dinamički određenih suseda
-- Dva najčešža modela:
+- Dva najčešća modela:
     - gbest - svaka čestica je pod uticajem najbolje jedinke iz čitavog roja
     - lbest - svaka čestica je pod uticajem najboljih jedinki iz neke svoje lokalne okoline
 
@@ -1678,7 +1677,7 @@ until termination_criterion_met()
 a) linearna funkcija - samo prosledi vrednost  
 b) step funkcija - ispod neke vrednosti argumenta je jedna vednost, a iznad druga  
 c) rampa  
-d) Sigmoidna gunkcija - daje vrednost između 0 i 1
+d) Sigmoidna gunkcija - daje vrednost između 0 i 1  
 e) hiperbolički tangens - daje vrednost između -1 i 1  
 f) Gausova funkcija, kao raspodela  
 g) relu = max(0,x)
@@ -1692,10 +1691,10 @@ TODO
 - ![](./imgs/lin_disj.png)
     - hiperravan koja odgovara funkciji logičke disjunkcije
     - kvartatići su 1 a kružići 0
-    - želimo da povučemo liniju (hiperravan) tako da su kružići sa jende strane a kvadatići sa druge
-- želimo da aproksimiramo funkciju, tj naučimo da ralikujemo
+    - želimo da povučemo liniju (hiperravan) tako da su kružići sa jedne strane a kvadatići sa druge
+- želimo da aproksimiramo funkciju, tj naučimo da razlikujemo
 - dovoljno da razdvojimo na da i ne, a perceptron može ovo da nauči
-- ova funkcija je linearno separabilna, tj postoji hiperravan koja radvaja na da i ne
+- ova funkcija je linearno separabilna, tj postoji hiperravan koja razdvaja na da i ne
 
 ### Nelinearna razdvojivost
 - ako nije linearno razdvojivo, tj prostori sa da i ne se ne mogu razdvojiti jednom hiperravni
@@ -1709,7 +1708,7 @@ TODO
 ## `32.` Učenje veštačkog neurona.
 - učenje gradijentnim spustom
 - induktivni proces učenja
-- dajemo primere sa odgovorima i nadamo se da će funkcija uhvatiti suštinu i da će znati da reši buduće slučajev
+- dajemo primere sa odgovorima i nadamo se da će funkcija uhvatiti suštinu i da će znati da reši buduće slučajeve
 - veštački neuron aproksimira funkciju opisanu ulazno izlaznim signalima podešavanjem težina $v$ i parametra $\theta$
 - skalarni parametar $\theta$ se može pridružiti vektoru $v$ radi lepše notacije
 - težine se menjaju u skladu sa greškom na izlazu
@@ -1723,8 +1722,8 @@ $$\epsilon = \sum_{p=1}^{P_T} (t_p-o_p)^2 $$
 - naredna težina je zbir prethodne i promene težine
 - promena težine je proporcionalna brzini učenja i negativnom gradijentu posmatrane težine, tako se tazuem izvod ??
 - ako je velika brzina učenje onda prebrzim oscilovanjem možemo preskočiti rešenje
-- informacije u grešci se koriste tako da se težine menjaju u skladu sa negativnim gradijentom
-- ako je veća greška pravimo jače promene u negativnom smeru ad težinama tih neurona
+- informacije o grešci se koriste tako da se težine menjaju u skladu sa negativnim gradijentom
+- ako je veća greška pravimo jače promene u negativnom smeru od težinama tih neurona
 - korekcija težine zavisi od magnitude, koliko je svaki težinski faktor uticao na nastanak greške
 
 - ![](./imgs/primer_ucenje.png)
@@ -1732,10 +1731,10 @@ $$\epsilon = \sum_{p=1}^{P_T} (t_p-o_p)^2 $$
 ---
 ## `33.` Tipovi organizacija veštačkih neuronskih mreža, slika sa objašanjenjem.
 ### Učenje ueuronskih mreža
-- pojedinačna neuron može da nauči samo linearno razdvojivu funkciju
+- pojedinačan neuron može da nauči samo linearno razdvojivu funkciju
 - grupisanje neurona u mrežu omogućava učenje nelinearno razvojivih funkcija
-- učenje mreža je kompleknsije i računarsk zahtvnije
-- nadgledano učenje - zahteva skup podataka za trening, svak podatak ima pridruženu ciljnu promenljivu
+- učenje mreža je kompleksnije i računarsk zahtvnije
+- nadgledano učenje - zahteva skup podataka za trening, svaki podatak ima pridruženu ciljnu promenljivu
 - nenadgledano učenje
 
 ### Mrežensa propagacijom unapred
@@ -1754,21 +1753,21 @@ $$\epsilon = \sum_{p=1}^{P_T} (t_p-o_p)^2 $$
 - kopija skrivenog slja se vraća na ulaz (kontekstni sloj)
 - cilj je upotreba prethodnog stanja mreže
 - omogućava učenje temporalnih zavisnsoti
-- informacija ne ide samo unapred već postoji povratna sprega između izlaza i ulaza, izlaz se vraća ponovo na ulazz
+- informacija ne ide samo unapred već postoji povratna sprega između izlaza i ulaza, izlaz se vraća ponovo na ulaz
 - imaju dve verzije, jedna vraća samo sa poslednjeg sloja, a druga može i sa ostalih slojeva
 
 - ![](./imgs/srnn.png)
 - ![](./imgs/srnnf.png)
 
-- Jordan SRNN - kopija izlaznog sloja se sproodi na ulazz, tzv sloj stanja
+- Jordan SRNN - kopija izlaznog sloja se sproodi na ulaz, tzv sloj stanja
 - ![](./imgs/jsrnn.png)
 
 ### Kaskadne neuronske mreže
 - CNN - Casade neural network
 - svi ulazi su spojeni sa svim skrivenim i svim izlaznim elementima
-- elementi srednjeg sloja su spojeni sa svim izlaznim i svim narednim elemmentima srednjeg sloja
+- elementi srednjeg sloja su spojeni sa svim izlaznim i svim narednim elementima srednjeg sloja
 - ![](./imgs/cnn.png)
-    - postoje precice i duyi putevi u mreži
+    - postoje prečice i duži putevi u mreži
     - efektivno se održava više težina
     - ide u jednom smeru, od neurona višeg sloja se šalje ka neuronima nižeg sloja
 
@@ -1779,10 +1778,10 @@ $$\epsilon = \sum_{p=1}^{P_T} (t_p-o_p)^2 $$
 - dat je konačan skup uređenih parova ulznih vrednosti i pridruženih ciljnih vrednosti:  
 $D = \{ dp=(z_p, t_p) | p = 1,...,P \}$
 - $z_{i,p}, t_{k,p} \in R\ za \ i=1,...,l\ i \ k=1,...,K$
-- l - broj ulazznih signala
-- K - roj izlazznihh signala
-- P - broj trening podataka
-- tada možemo predstaviti sledeću zavisnsot: $t_p= \mu (z_p) + \eta p$
+- $l$ - broj ulaznih signala
+- $K$ - broj izlaznih signala
+- $P$ - broj trening podataka
+- tada možemo predstaviti sledeću zavisnost: $t_p= \mu (z_p) + \eta p$
 - $\mu (*)$ - nepoznata ciljna funkcija
 - $\eta p$ - šum
 - učimo induktivno iz primera, a želimo da predviđamo vrednosti za nove podatke
@@ -1792,9 +1791,9 @@ $D = \{ dp=(z_p, t_p) | p = 1,...,P \}$
 - cilj je aproksimirati $\mu (*)$ na osnovu podataka iz D
 - polazni skup se obično deli na 3 dijsunktna skupa:
     - $D_T$ - trening skup za aproksimaciju
-    - $D_V$ - skup za validaciju (memoriacija), može da smanji preprilagođavanje, ali nije obavezan
+    - $D_V$ - skup za validaciju (memorizacija), može da smanji preprilagođavanje, ali nije obavezan
     - $D_G$ - skup za testiranje (procena kvaliteta, ne glda se pri učenju uopštavanja)
-- tokom faze učenja e minimizuje empirisjka greška podeešavanjem W
+- tokom faze učenja se minimizuje empirisjka greška podešavanjem W
 - ![](./imgs/nagledanof.png)
 - metode lokalne optimizacije, npr gradijentni spust
 - metode globalne optimizacije, npr metaheuristike
@@ -1802,9 +1801,9 @@ $D = \{ dp=(z_p, t_p) | p = 1,...,P \}$
 - potprilagođavanje - nije dovoljno dobro obučen model
 
 ### Gradijenti spust za učenje NN
-- Sastojis se iz dve fazze
-1. propagacija signala unapred, jednostavno računanje signala az FFNN
-2. propagacija greške unazad, signal greške se šalje unazzada ka ulanom sloju pri čemu se vrši izmena težinskih koeficijenata
+- Sastojis se iz dve faze
+1. propagacija signala unapred, jednostavno računanje signala za FFNN
+2. propagacija greške unazad, signal greške se šalje unazada ka ulaznom sloju pri čemu se vrši izmena težinskih koeficijenata
 - imamo više grešaka koje treba rasporediti po mreži, a ne okriviti jedan sloj za svu gešku
 - funkcija cilja minimizacije može biti sum kvadratna greška 
     - SSE - Sum squared error
@@ -1830,22 +1829,106 @@ $D = \{ dp=(z_p, t_p) | p = 1,...,P \}$
 - npr. sećenje na sliku može da izazove osećanja kod čoveka
 
 ---
-## `35.` Asocijativna neuronska mreža i hebovo učenje
+## `35.` Asocijativna neuronska mreža i Hebovo učenje
 ### Asocijativne neuoronske mreže
-- obično svoslojne
-- cilj je omogućiti stvaranje asocijacija
+- obično dvoslojne
+- cilj je omogućiti ostvarivanje asocijacija
 - razvoj ovakvih mreža je zasnovan na studijama vizuelnog i zvučnog korteksa kod mozga sisara
 - topološka organizacija neurona omogućava asocijaciju
 - dodatna poželjna karakteristika je zadržavanje starih informacija, a ovo obično ne može nadgledanim učenjem
 - stvaramo asocijaciju između sličnih podataka, npr sve objekte slične nijanse
 
 ### Primer asocijativne mreže
-- funkcija koju uči ovakva mreža je preslikavanje ulanog šablona u izlazni
+- Hebova mreža / Hebovo učenje
+- funkcija koju uči ovakva mreža je preslikavanje ulaznog šablona u izlazni
 - $f_{NN}:R^I \rightarrow R^K$
-- višedimenzioni ulaz i izlaz su povezani, pa gledamo preslikavanje iz ulaza na izlaz
+- višedimenzioni ulaz ($z_i$) i izlaz ($o_i$) su povezani, pa gledamo preslikavanje iz ulaza na izlaz
 - ![](./imgs/asocmreza.png)
 
 ### Hebovo učenje
-- neuropsiholog Hebb
+- neuropsiholog Heb
 - težina se ažurira na osnovu korelacije između aktivacionih vrednosti neurona
 - zasnovano na hipotezi: _potencijal neurona da ispali signal je zavistan od potencijala okolnih neurona._
+- uči na osnovu korelacije ulaznog i izlaznog signala
+- težina između dva korelisana neurona se pojačava
+    - gledamo k-ti ulazni i i-ti izlani neuron
+    - $u_{ki}(t) = u_{ki}(t-1) + \Delta u_{ki}(t)$
+    - $\Delta u_{ki}(t) = \eta o_{k,p} z_{i,p}$
+    - $\Delta$ - stepen brzine učenja
+    - $o_{k,p}$ - vrednost izlaza
+    - $z_{i,p}$ - vrednsot ulaza
+- gledamo težinu i-tog i j-tog singla, šta je ušlo u i, a šta je izašlo na k
+- ako su pozitivno korelisani težina se povećava vremenom, koliko brzo zavisi od brzine učenja
+- ako su nengativno korelisani težina se smanjuje
+- sve se gleda kroz vreme a ne u jednoj iteraciji
+- problem: ponovno ubacivanje ulaznih šablona dovodi do ekspoenencijalnog rasta težina, jačanje težina u +/- beskonačno
+- rešenje: postaviti limite na vrednosti težina
+- primer limita: nelinearni faktor zaboravljanja:
+    - $\Delta u_{ki}(t) = \eta o_{k,p} z_{i,p} - \gamma o_{k,p}u_{k,i}(t-1)$
+    - gde je $\gamma$ pozitivna konstanta koja kontroliše umanjenje
+
+    ### ?
+
+---
+## `36.` Kvantizacija vektora 1
+- LVQ-1 klasterovanje
+- PRESKOČENO
+
+--- 
+## `37.` Samoorganizujuće mape
+- Self-organizing feature maps
+- SOM
+- razvio ih Kohonen u nameri da modelira karakteristike ljudskog celebralnog korteksa
+- tehnika nenadgledanog učenja kod koga se vrši višedimenziono prosto preslikavanje u prostor niže dimenzije, tako da se zadrže veze iz viših dimenzija u nižim dimenzijama
+- ako su tačke bile blizu u višim dimenzijama biće blizu i u nižim
+- podseća na PCA
+- metoda vrši projekciju I-dimenzionog prostora u izlazni diskretni prostor (neki vid kompresije)
+- izlazni postor je često dvodimenziona mreža vrednosti
+- ideja je zadržavanje topološke strukture ulazno prostora
+    - ako su dva podatka blizu u ulaznom prosoru biće blizu i u izlaznom
+    - slične moždane vrednosti aktiviraju bliske neurone
+
+### Stohastičko pravilo učenja
+- zasnovano na kompetitivnoj strategiji učenja
+- vrlo slično LVQ-1 klasterovanju
+- Ulazni podaci su povezani sa odgovarajućim neuronima u mapi
+    - mapa je obično kvadratnog oblika
+    - broj neurona je manji od broja trening podataka
+    - u idealnom slučaju broj neurona je jednak broju nezavisnih trening primeraka
+- ![](./imgs/som.png)
+    - 2d rešetka neurona
+    - svaki neuron je vektor težina
+    - k redova i j kolona
+    - i dimenzija posmatranih podataka
+    - imamo 3D vektor atributa, k*j neurona gde svaki neuron ima dimenziju i (dimenziju ulaznih podataka)
+    - svaki ulazni vektor se povezuje sa svakim neuronom
+    - za svaki neuron možemo izračunati sličnost sa ulaznim vrednostima, npr euklidsko rastojanje
+- vektor težina za svaki neuron na poziviji (k,j) je inicijalno nasumično podešen
+    - $w_{kj} = (w_{kj1}, w_{kj2}, ..., w_{KJI})$ 
+- svaki ulazni podatak je povezan sa svakim neuronom iz mape
+- prmetimo da je dimenzija vektora težina ista kao i dimenzija ulaznog podatka
+- imamamo euklidsko rastojanje neurona i svih ulaza, gledamo koji neuron je najbliži ulazu
+- taj najbliži neuron se naziva **pobednički**
+- pobednički neuron i njemu bliski neuroni se ažuriraju kada se pojavi novi ulaz
+- susednim neuronima se vrši korekcija težina u skladu sa udeljenošću od pobedničkog
+- idemo u smeru ulaznog vektora
+- implicitno se povećava veza bliskih neurona, pa će vektori težina biti međusobno korelisani za bliske neurone
+- to znači da će bliski neuroni reagovati na slične nadražaje iz spoljašnje sredine
+- nalik vizuelnom koreteksu i našem reagovanju na boje 
+    - vizuelni korteks se aktivira kada se javi slična boja, ne nužno skroz ista
+
+- Primeri:
+    - raspoređivanje tema na vikipediji
+    - klasterovanje boja
+    - ![](./imgs/som_primer.png)
+
+- Primene
+    - analiza slika
+    - prepoznavanje zvuka
+    - procesiranje signala
+    - telekomunikacije
+    - analiza vremenskih serija
+
+- Pogodnosti
+    - omogućava laku vizuelizaciju i interpretaciju
+    - oblasti koje klasifikuju (kategorišu) su vidljive na mapi
