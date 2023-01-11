@@ -1,6 +1,6 @@
 # ISPITNA PITANJA
 
-1. Kvalitet softvera. Briga o kvalitetu softvera u okviru procesa razvoja softvera. Atributi kojima se
+### 1. Kvalitet softvera. Briga o kvalitetu softvera u okviru procesa razvoja softvera. Atributi kojima se
 meri kvalitet softvera.
 
 Razvoj softvera:
@@ -13,7 +13,7 @@ Razvoj softvera:
 
 Kvalitet softvera
 - atributi kojima se meri kvalitet softvera su 
-    - statičk atributi kvaliteta - strukturianost koda, cena održavanja koda, mogućnost testiranja koda, prisutnost korekrne i kompletne dokumentacije
+    - statički atributi kvaliteta - struktuiranost koda, cena održavanja koda, mogućnost testiranja koda, prisutnost korektne i kompletne dokumentacije
     - dinamički atributi kvaliteta - pouzdanost (realiability), ispravnost (correctness), kompletnost (completeness), konzistentnost (consistency),lakoća korišćenja (usability), performanse (performance)
 
 - Značenje nekih atributa:
@@ -22,14 +22,16 @@ Kvalitet softvera
     - lakoća korišćenja - način korišćenja aplkacije se oslanja na psihološke karakteristike korisnika
     - performanse - vreme koje aplikacija koristi da obavi traženi zadatak
 
-2. Kvalitet softvera. Odnos verifkacije i validacije.
+---
+### 2. Kvalitet softvera. Odnos verifkacije i validacije.
 
 - Validacija - da li specifikacija zadovoljava korisničke potrebe? Da li pravimo ono što korisniku treba?
 - Verifikacija - da li softver zadovoljava spcifikaciju? Da li je softver ispravan?
 
 ![valiadicija vs verifikacija](./imgs/vandv.png)
 
-3. Kvalitet softvera. Uticaj neispravnog softvera.
+---
+### 3. Kvalitet softvera. Uticaj neispravnog softvera.
 
 - greška pravi nedostatak, on dalje uzrokuje pad, pravi i incident koji ima posledice
 - Neprijatnost 
@@ -38,7 +40,7 @@ Kvalitet softvera
 - korisnik briše mobilnu aplikaciju zbog jedne geške - gubitak korisnika
 - materijalni gubici
     - poslovni softver, banke, gubici podataka (virusi)
-- Love virus (2000) - desetine miliona zaraženih računara, značajan gubitak podtaka, šteta oko 10 milijardi dolara
+- Love virus (2000) - desetine miliona zaraženih računara, značajan gubitak podataka, šteta oko 10 milijardi dolara
 - Knight Capital Group (2012) - izgubli 460 miliona dolara za 45 minuta jer su pokrenuli pogrešnu verziju softvera
 - fatalne posledice
     - avioni, automobili, vozovi, aparati u zdravstvu, svvemirske letelice, nuklearne elektrane
@@ -50,21 +52,22 @@ Kvalitet softvera
 - ranije otkrivanje greške moglo bi da uštedi 22 milijarde dolara godišnje
 - broj linija koda se duplira svake godine, a broj defekata po liniji se nije menjao u zadnjih 10 godina
 
-4. Tehnike verifkacije softvera. Osnovna podela i mogučnosti statičkog i dinamičkog pristupa.
+---
+### 4. Tehnike verifkacije softvera. Osnovna podela i mogučnosti statičkog i dinamičkog pristupa.
 
 Dinamička verifikacija softvera
 - tehnika ispitivanja ispravnosti koda u toku njegovog izvršavanja
 - testiranje 
-    - sinonim za veriikaciju softvera, kao i za validaciju i verifikaciju
-    - tehnika izvršavanja programa sa namerom da se pronađe što više mogućih defetata ili da se stekne dovoljnno poverenje u sistem koji se testira
+    - sinonim za verifikaciju softvera, kao i za validaciju i verifikaciju
+    - tehnika izvršavanja programa sa namerom da se pronađe što više mogućih defekata ili da se stekne dovoljnno poverenje u sistem koji se testira
     - u svakoj fazi razvoja softvera, plan testiranja zavisi od metodologije razvoja softvera i prilagođava se konkretnom projektu
     - skup podataka nad kojima će se vrštiti testiranje treba da bude reprezentativan:
         - visok potencijal otkrivanja greške
         - relativno mala veličina
         - visok stepen poverenja u pouzdanost softvera
-    - testiranje crne kutije - funkcionalno testiranje, generisanje test primera bez rezmatranja interene strukture koda
-    - testiranje bele kutije - strukturno testiranje, generisanje test primera na osnovu interne strukture koda, npr jedinični testovi; kriteriju pokrivenosti koda: broj izvršenih putanja, broj izvršenih istrukcija, broj ivršenih grana...
-    - testiranje sive kutije - mešovita stratgija
+    - testiranje crne kutije - funkcionalno testiranje, generisanje test primera bez razmatranja interene strukture koda
+    - testiranje bele kutije - strukturno testiranje, generisanje test primera na osnovu interne strukture koda, npr jedinični testovi; kriterijum pokrivenosti koda: broj izvršenih putanja, broj izvršenih istrukcija, broj izvršenih grana...
+    - testiranje sive kutije - mešovita strategija
     - automatizacija testiranja - sastavni deo alata za razvoj softvera, alati za kontinuiranu integraciju softvera, alati za testiranje specifičnih vrsta softvera
     - automatsko generisanje test primera - olakšava generisanje test primera, npr fuzz testing
     - koriste se alati za debagovanje i razne vrste profajliranja
@@ -74,12 +77,13 @@ Statička verifikacija softvera
 - analiza ispravnosti programa bez njegovog izvršavanja - analiza izvornog koda
 - vrste statičke verifikacije:
     - ručne provere i pregledi koda
-    - formalne metode verifikacije softvera - uslovi ispravnosti softvera se iskazuju u terminima matematičkih tvrđenja na sktriktno definisanom formalnom jeziku izabrane matematičke teorije
+    - formalne metode verifikacije softvera - uslovi ispravnosti softvera se iskazuju u terminima matematičkih tvrđenja na striktno definisanom formalnom jeziku izabrane matematičke teorije
     - Halting problem - ne postoji opšti automatizovan način za proveraanje da li je neka naredba programa dostižna, pa samim tim ni da li je ispravna, tj da li je program ispravana
     - Nije moguće napraviti program koji bi potpuno automatski, u konačnom vremenu, koristeći konačne resurse, mogao da utvrdi ispravnost proizvoljnog programa potpuno precizno
         - to možemo ili precizno ili efikasno, ne oba
 
-5. Testiranje u razvoju softvera. Cena greške u kontekstu vremena otkrivanja.
+---
+### 5. Testiranje u razvoju softvera. Cena greške u kontekstu vremena otkrivanja.
 
 - poželjno je sve greške detektovati što ranije u fazi razvoja softvera jer je
 ispravljanje grešaka jeftinije i brže u ranijim fazama razvoja softvera
@@ -629,6 +633,455 @@ Knutov algoritam
 
 28. Smanjenje trškova profajliranja. Uslovi prelaska. Duplirajući i proveravajući kod, delimično dupliranje i bez dupliranja. Profajliranje uzimanjem uzoraka.
 
-- Tomas Bal i Džejms Larus - osmislili način kako da se proceni koji skup grana je optimalan
+- Tomas Bal i Džejms Larus - osmislili način kako da se proceni koji skup grana je optimalan, tj kako da se korišćenjem jednostavne statičke analize instrumentalizuju one grane za koje se predviđa da će se najmanje puta izvršti
+
+- prvim koracima profjliranja se dobija veliki rezultat, kako se više optimizuje program to ga je teže dodatno optimizovati
+- zbog prethodnog se u prvim koracima mogu koristiti manje precizne tehnike, a kasnije je potrebno koristiti sve preciznije tehnike
+
+Profajliranje uzimanjem uzorka
+- neophodno je smanjiti uspravanje programa instrumentalizacijom
+- smanjuje opterećenje programa 
+- ne određuje način insrumentalizacije, već samo kako smanjiti njene troškove
+- često se koristi
+- podrazumevano za Visual Studio Profiling Tools
+- uzimaju se *slike* programa u određenim vremenskih intervalima i od njih pravi profil programa
+- znatno smanjuje opterećenje programa, ali je smanjena i tačnost dobijenih podataka
+- za dobro izabraen intervale merenja preciznost ove metode može da bude veoma visoka
+- ako su intervali loši može se desiti da se ne zabeleže određeni događaji
+- najčešće se koristi za pronalaženje najfrekvntnijih događaja
+- primer: uzimanje slike stanja na steku
+
+Duplirajući i proveravajući kod
+- dupliran kod - duplikat koda koji sadrži instrumentalizovan kod
+- originalan kod - proveravajući kod, u njemu se ispituje uslov, koji ukoliko je ispunjen treba kontrolisano da pređe u dupliran kod, ovim se kontroliše koliko će se izvršavati svaki od ova dva koda
+- kada izvršavanje pređe u duplirani kod ono tu ostaje ograničeno vreme a zatim se vraća u proveravajući
+- trenutak prelaska iz proveravajućeg u duplirani kod se može iniccirati hardverski, putem operativnog sistema ili softverski
+
+Uslov prelaska
+- Time based sampling
+    - fiksiran vremenski period između dva uzimanja uzorka: tajmer postavi bit, uslov proverava da li je taj bit postavljen
+    - period uzimanja uzorka je ograničen frekvencijom tajmera što nije praktično za veoma česte događaje
+    - kada istekne vreme, sledeći uzorak će biti uzet tek kada ponovo ispita uslov prelaska
+- Counting-based sampling
+    - čuva se brojač za prelaske koji se dekrementira
+    - kada brojač dođe do nule, uzima se uzorak i resetuje se brojač
+    - očekuje se da je cena ovoga mala jer se brojač može držati u kešu
+    - obezbeđuje se da će se uzorci uzimati proporcionalno broju provera
+
+Algoritam uzorkovanja
+- dupliranjem se povećava upotreba memorije i vreme kompilacije
+- mogu se instrumentalizovati samo delovi koda, neki algoritmi prave kopije samo onih delova koji su vezani samo za insrtumentalizaciju
+- za rekonstrukciju profila nije potrebno instrumentaliovati svaki blok ili svaku granu
+- delimičnim dupliranjem se može smanjiti upotreba memorije i vreme kompilacije sa potpunim zadržavanjem preciznosti dobijenih informacija
+
+Bez dupliranja koda
+- dodaje se provera ispod svakog instrumentalizovanog čvora
+- narušava se svojstvo proporcionalnosti i dodaje se veće opterećenje
+- rezultati nisu isti kao kod punog ili delimičnog dupliranja
+- profajliranje može da se zaustavi ranije
 
 TODO
+
+
+29. Sanitajzeri
+
+- cilj instrumentalizazcije: profajliranje, optimizacija koda, pronalaženje greške u radu sa memorijom ili u radu sa nitima
+
+Sanitajzeri 
+- koriste se u fazi razvoja programa kao pomoć u detektovanju grešaka
+
+AddressSanitizer (ASan) 
+- Clang, gcc
+- detektuju prekoračenje bafera i korišćenje oslobođene memorije
+- drugačija instrumentalizacija, obuhvata izmenu u adresnim prostorima izvršavajućeg programa
+- u proskeu se vreme izvršavanja povećava 73%, a upotreba memorije 340%
+
+MemorzSanitizer (MSan)
+- clang
+- detektor čitanja neinicijalizovane memorije
+- otkriva slučajeve kada ovo utiče na izvršavanje programa
+
+ThreadSanitizer 
+- clang
+- detektuje probleme u radu sa nitima
+- koristi kompajlersku instrumentalizaciju i odgovarajuću run-time biblioteku
+- tipično uspori ponašanje 5 do 15 puta
+- memorija dodatno opterećena 5 do 10 puta
+
+30. Analiza binarnog koda. Kako radi Valgrind? Faze translacije koda.
+
+- analiza izvornog programa obuhvata analizu na nivou mašinskog koda, snimljenog ili kao objektni kod (nepovezan) ili kao izvršni kod (povezan)
+
+Valgrind 
+- usporava izvršavanje od 5 do 100 puta, u zavisnosti od alata
+- može da se koristi kao alat za pravljenje novih alata
+- svi valgrind alati rade na istoj osnovi
+- alat za dinamičku analizu koda se kreira kao dodatak, pisan u C-u, na jezgro Valgrinda
+- Alat Valgrind = Jezgron Valgrind-a + alat koji se dodaje
+- jezgro valgrinda - oogućava izvršavanje klijentskog programa, kao i snimanje izveštja koji su nastali prilikom analize programa
+- informacije koje se emituju se mogu iskoristiti za uklanjanje grešaka, optimizaciju koda, i još stvari
+
+Kako radi Valgrind?
+- svaki valgrindov alat je statički povezana izvršna datoteka koja sadrži kod alata i kod jezgra
+- izvršna datoteka valgrind predstavlja omotač okjij na osnovu --tool opcije bira alat koji treba pokrenuti
+- valgrindovo jezgro prvo inicijalizuje podsistem kao što su menadžer adresnog prostora, i njgov unutrašnji alokator memorije i zatim učitava klijentovu izvršnu datoteku
+- potom se inicijalituju valgrindovi podsistemi kao što su translacija tabela, aparat za obradu signala, raspoređivač niti i učitavaju se informacije za eagovanje klijenta ukoliko postoje
+- ni jedan deo klijentskog koda se ne izvršava u svom izvornoom obliku
+- Valgrind ima potpunu kontrolu i počinje prevođenje i izvršavanje klijentskog programa
+- Valgrind vrši JIT prevođejne mašinskog koda programa u mašinski kod programa dopunjem instrumentalizacijom
+- alat u originalan kod umeće operacije u svrhu instrumentalizacije, zatim takav kod prevodi dinamički
+- prevođenje se sastoji iz raščlanjivanja originalnog mašinskog koda u odgovarajuću međureprezentaciju (Intermediate Representation) koja se kasnije instrumentalizuje sa alatom i ponovo prevodi u mašinski kod
+- rezultat ovog procesa se naziva translacija, čuva se u memoriji i izvršava po potrebi
+- jezgro troši najviše vremena na sam proces pravljenja, pronalaženja i izvršavanja translacije
+- Valgrind deli originalni kod u sekvence koje se nazivaju osnovni blokovi
+- osnovni blok je pravolinijska sekvenca mašinskog koda, ne čiji se poletak skače, a koja se završva skokom, pozivom funkcije ili povratkom u funkciju pozivaoca
+- svaki kod programa koji se analizira ponovo se prevodi na zahtev, pojedinalno po osnovnim blokovima, neposredno pre izvršavanja bloka
+- veličina osnovnog bloka je ograničena na maksimalno šesdeset mašinskih instrukija
+
+Faze translacije:
+![](./imgs/translacija1.png)
+![](./imgs/translacija2.png)
+![](./imgs/translacija3.png)
+
+31. Analiza binarnog koda. Valgrind i Valgrind alati
+
+- svi valgrind alati rade na istoj osnovi
+- alat za dinamičku analizu koda se kreira kao dodatak, pisan u C-u, na jezgro Valgrinda
+- Alat Valgrind = Jezgro Valgrind-a + alat koji se dodaje
+- jezgro valgrinda - omogućava izvršavanje klijentskog programa, kao i snimanje izveštaja koji su nastali prilikom analize programa
+- informacije koje se emituju se mogu iskoristiti za uklanjanje grešaka, optimizaciju koda, i još stvari
+
+![](./imgs/alati.png)
+
+32. Analiza binarnog koda. Valgrind, Memcheck i Massif.
+
+Valgrind
+- detektuje memorijske greške korisničkog program
+- ne vrši analizu izvornog koda već mašinskog
+- radi za bilo koji jezik
+- zbog translacije se izvršava 20-100 puta sporije
+- alat dodaje izlaz za greške
+- valgrind --tool=memcheck ./main
+- detektuje:
+    - upisivanje podataka van opsega hipa i steka
+    - pristup oslobođenoj memoriji
+    - duplo odlobađanje blokova
+    - neuparenog korišćenja funkcija malloc/new/new[] i free/delete/delete[]
+    - curenje memorije
+    - korišćenje neinicijalizovane memorije
+    - preklapanje parametara prosleđenih funkcijama
+- Ako je opcija --leak-check uključena, za svaki neoslobođeni blok Memcheck određuje da li je moguće pristupiti tom bloku preko pokazivača
+- Ako je uključena opcija --leak-check=yes, Memcheck će prikazati detaljan izveštaj
+o svakom definitivno ili moguće izgubljenom bloku, kao i o tome gde je on alociran
+- Memcheck smatra da je curenje memorije greška samo ako je uključena opcija --leak-check=full
+- Definitivno i moguće izgubljeni blokovi se smatraju za pravu ½grešku, dok indirektno izgubljeni i još uvek dostupni blokovi se ne smatraju kao greška.
+
+Massif
+- alat za analizu hip memorije korisničkog programa
+- memchek ne može da detektuje neke tipove curenja memorije, npr ako pokazivač i dalje postoji ali se memorija više ne koristi
+- massif otkriva koja se memorija ne koristi
+- daje informaciju koliko se hipa koristi, koji deo programa je odgovoran za alokaciju memorije
+- program radi veoma sporo, a statistika je na kraju ispisana u fajl massif.out.<pid>, ili definisan sa --massif-out-file
+- ms_print massif.ou.1234 - da bi dobili čitljiv format, proizvodi graf koji pokazuje trošenje memorje tokom izvršavanja, detaljne informacije o različitim tačkama programa koje su odgovorne o alokaciji memorije
+- meri samo hip memoriju, tj memoriju alocirano sa malloc, calloc, realloc, memalign, new, new[] is sl
+- ne meri memoriju alociranu sistemskim poivima kao što su mmap, mremap i brk
+
+33. Analiza binarnog koda. Valgrind, Cachegrind i Callgrind.
+
+Cachegrind
+- alat koji omogućava softversko profajliranje keš memorije tako što
+simulira i prati pristup keš memoriji mašine na kojoj se program, koji se analizira,
+izvršava
+- moše se koristiti i za profajliranje izvršavanja grana
+- simulira memoriju mašine, ima prvi nivo keša podeljen u dve odvojene nezavisne sekcije
+    - l1 sekcija - instukcije
+    - D1 sekcija - podaci
+- drugi nivo keša koji simulira je objedinjen L2
+- ukoliko mašina ima više od dva nivo keša, onda se simulira pristup prvom i poslednjem nivou keša
+- generalno, simulira l1, D1 i LL (poslednji nivo keša)
+- prikupljaju se naredni statistički poaci o programu koji se analizira:
+    - lr - ukupno izvršenih instrukcija
+    - l1mr - broj promašaja čitanja instrukcija iz keš memorije nivoa l1
+    - ILmr - broj promašaja čitanja instrukcija iz keš memorije nivoa LL
+    - Dr - ukupan broj čitanja memorije
+    - D1mr - broj promašaja čitanja nivoa keš memorije D1
+    - DLmr - broj promašaja čitanja nivoa keš memorije LL
+    - Dw - ukupan broj pisanja u memoriju
+    - D1mw - broj promašaja pisanja u nivo keš memorije D1
+    DLmw - broj promašaja pisanja u nivo keš memorije LL
+- statistike se prikupljaju na nivou celog programa, i pojedinačno na nivou funkcija
+- na modernim mašinama L1 promašaj košta oko 10 procesorskih ciklusa, LL promašaj košta oko 200 procesorskih ciklusa
+- na izlaz idu sumarne infomacije, a detalji se ispisuju u fajl cachegrind.out.<pid>
+- alat grupiše sve troškove po fajlovima i funkcijama kojima ti troškovi pripadaju
+- gobalne statistike se računaju prilikom prikaza rezultat, time se štedi vreme, jer se kešu pristupa čest pa bi nekoliko instrukcija sabiranja značajno usporilo
+- krajnji fajl je čitljiv, ali cg_annotate lepše prikazuje
+- cg_merge sumira u jednu datoteku izveštaje dobijene višestrukim izvršavanjem nad istim programom
+- cg_diff - pravi razliku između više izlata cachegrinda
+
+Callgrind
+- generiše listu poziva funkcija korisničkog programa u vidu grafa
+- sakupljeni podaci:
+    - broj izvršenih instrukcija
+    - odnos izvršenih instukcija sa linijom u izvršnom kodu
+    - odnos pozivaoc/pozvan između funkcija
+    - broj poziva
+- može da vrši analiu keš memorije i profajliranje grana sličnno cachegrindu
+
+- za callgrind i cachegrin se program kompajlira sa optimizacijama, a ne u debug modu kao za ostale valgrind alate
+
+- podaci se po završetku zapisuju u fajl
+- podržane komanda
+    - callgrind_annotate - prikazuje listu funkcija
+    - callgrind_control - interaktivna kontrola i nadgledanje programa prilikom izvršavanja, mogu se dobiti informacije o stanjnu na steku, može se u svakom trenutku generisati profil
+
+- Alat Cachegrind sakuplja podatke, odnosno broji događaje koji se dešavaju direktno u jednoj funkciji. Ovaj mehanizam sakupljanja podataka se naziva ekskluzivnim.
+- Alat Callgrind proširuje ovu funkcionalnost tako što propagira cenu funkcije preko njenih granica. Na primer, ako funkcija foo poziva funkciju bar, cena funkcije bar se dodaje funkciji foo. Kada se ovaj mehanizam primeni na celu funkciju, dobija se slika takozvanih inkluzivnih poziva, gde cena svake funkcije uključuje i cene svih
+funkcija koje ona poziva, direktno ili indirektno.
+
+- može se odrediti koja funkcija ima najveću cenu poziva
+- pozivaoc/pozvan cena je izuzetno korisna za profilisanje funkcija koje imaju više poziva iz raznih funkcija, i gde imamo priliku optimizacije našeg programa menjajući kod u funkciji koja je pozivaoc, tačnije redukovanjem broja poziva
+
+34. Analiza binarnog koda. Valgrind, Helgrind i DRD.
+
+Helgrind
+- otkriva greške sinhronizacije prilikom upotrebe modela niti POSIX
+
+DRD
+- detektuje gerške u C i C++ programima koji koriste više niti
+- radi za sve programe koji koriste niti POSIX standarda ili koji koriste koncepte koji su nadograđeni na ovaj standard
+
+DRD i Halgrind
+- koriste različite algoritme za otkrivanje grešaka
+- ne otkrivaju iste tipove grešaka, iako imaju dosta poklapanja
+- greška u otključavanju muteksa - ako je muteks nevažeći, nije zaključan ili je zaključan od strane druge niti
+- greške u radu sa zaključanim muteksom - uništaanje nevažećeg ili zaključanog muteksa, dealokacija memorije koja sadrži zaključan muteks
+- greške prilikom korišćenja funkcije pthread_cond_wait - prosleđivanje nezaključanog, nevažećeg ili muteksa koga je zaključala druga nit
+- greške sa pthread barrier - nevažeća ili dupla inicijalizacija, čekanje na objekat koji nije nikada inicijalizovan...
+- mrtvo blokiranje kao posledica problema u redosledu zaključavanja
+- pristup memoriji bez adekvatnog zaključavanja i sinhornizacije
+- DRD - zadržavanje katanca i lažno deljenje
+
+35. Statička analiza. Svrha, ciljevi i važnost pregleda koda.
+
+Statička analiza koda
+- analiza koda bez njegovog izvršavanja sa ciljem pronalaženja grešaka
+- u obliku pregleda ili automatiovana
+
+
+Pregled koda
+- obuhvataju ljudske kontrole koda najčešće pre nego što kod uđe u glavni repozitorijum
+- otkrivanje grešaka
+- cilj: povećati kvalitet koda, smanjiti broj grešaka, dokumentovati kod
+- ne garantuje da će se naći sve greške
+
+![](./imgs/pregled_koda.png)
+
+- vidi se konzistentnsot, mala/velika slova, razmaci, čitljivost, da li je promenljiva inicijalizovana, ponovljena izračunavanja, formatiranje, da li može da se koristi neka bibliotečka funkcija
+
+36. Statička analiza. Vrste pregleda koda.
+
+- manje ili više formalno
+
+Formalni pregledi koda
+- grupni sastanak 3-6 osoba na kojima se diskutuje o kodu i rade pregledi, često i odštampanog koda
+- dosta skupo i vremenski zahtevno
+- pronalazi najveći broj defekata u kodu
+
+Neformalni pregledi
+- pregledi preko ramena
+    - najneformalniji
+    - programer objašnjava pregledaču šta je u kodu i zašto
+    - ne mora uživo, može deljenje ekrana
+    - najjednostavniji, najmanj zatevan, lakša razmena ideja nego pisano
+    - nemoguće ispratiti šta je pregledano, moguće propustiti neku izmenu, nema ponovnih pregleda nakon ispravke greške, pa se možda pogrešno ispravi
+- pregledi preko mejla
+    - izmena stigne mejlom pregledačima
+    - lakše ako je pregledač na drugoj lokaciji
+    - može pre ili nakon što kod uđe u repozitorijum
+    - dugo bila najčešća, ali prevaziđena
+- pregledi preko alata za pregled koda
+    - sastavni deo većine agilnih metodologija razvoja softvera
+    - pregled od strane jednog ili više (iskusnih) programera pre nego kod uđe u repozitorijum
+    - alati za podršku: Phabricator, Gerrit, Collaborator, Gitlab
+- programiranje u paru
+    - specijalna vrsta pregleda
+    - ne može uvek
+    - kvalitetniji kod, ali i dalje mogu da se previde greške
+
+37. Statička analiza. Uticaj pregleda koda. Uloga pregleda koda u agilnom razvoju. Osnovna pravila efikasnog pregledanja.
+
+Uticaj pregleda koda:
+- ako zahtevamo pregled koda pre ulaska u repozitorijum, onda se mora pregledati
+- ako znamo da će neko pregledati naš kod potrudićemo se da bude dobar 
+- proverava ono što mašina ne može, sprečava loše odluke i loša rešenja
+- mentorisanje novih programera
+- iskusniji programeri mogu da uvide nove ideje mlađih kolega
+- programer može lakše da savlada ceo kod i usvoji nove tehnike
+- izlažu programera novim idejama
+
+Agilni razvoj
+![](./imgs/agilno.png)
+
+- 11 pravila efikasnog pregledanja:
+    1. Pregledaj manje od 200-400 linija koda od jednom
+    2. Imaj za cilj brzinu pregledanja koja je manja od 300-500 linija po satu
+    3. Planiraj dovoljno vremena za odgovarajuće, sporo pregledanje, ali nikako više od 60 do 90 mintua
+    4. Postaraj se da autori obeleže kod pre nego što pregled počne
+    5. Napravi ciljeve pregledanja koda koji se mogu kvantifikovati i prati metrike kako bi mogao da unaprediš svoj proces pregledanja
+    6. Koristi liste provera koje treba da uradiš, jer se na taj način značajno popravlja rezultat pregleda i za autora i za pregledača
+    7. Proveri da su uočeni defekti stvarno i popravljeni
+    8. Neguj dobru kulturu pregleda koda u kojoj se pronalaženje defekata gleda pozitivno
+    9. Budi svesan efekta *Velikog brata* (Programer može steći utisak da ga neko stalno posmatra, pogotovo ako radi sa alatima za pregledanje. Može da misli da će statistike biti iskorišćene protiv njega i može se fokusirati na poboljšanje statistika umesto na poboljšanje koda)
+    10. Ukoliko ne možeš da postigneš pregled celog koda, pogledaj bar njegov deo (zbog benefita koji donosi *ego* efekat - svako ulaže dodatni trud kada zna da će njegov kod neko pregledati)
+    11. Usvoji proces pregleda koda koji koristi alate za pregled koda
+
+38. Simboličko izvršavanje. Istorija, alati, stablo izvršavanja
+
+Simboličko izvršavanje
+- izvršavamo program simbolima
+- pratimo simbolička stanja umesto konkretnih ulaza
+- puto putanja se izvršava simultano, kada ivršavanje neke utanje može da se nastavi na više načina pravimo nove putanje i dodajemo uslove nad simboličkim vrednostima
+- izvršavanjem jedne putanje simuliramo veliki broj testova s obzirom da razmatramo sve ulaze koji prolaze kroz tu istu putanju
+
+Istorija
+- tehnika nastala 70ih godina prošlog veka
+- radovi *Symbolic execution and program testing*, *SELECT - a formal system for testing and debugging programs by symbolic execution*, *A program testing system*, *Program testing techniques using simulated execution*
+- praktčno se koristi tek od 2005
+- u početku nije bilo jasno kako rešiti neke probleme koji su se javili
+- Alati koji su napravili proboj
+    - DART - Godfroid and Sen, uvođenje dinamičkog izvršavanja u simboličko izvršavanje
+    - EXE - Cadar, Genesh, Pawlowski, Dilll, Engles, STP podrška za teoriju nizova
+
+Alati
+
+![](./imgs/simbolcki_alati.png)
+
+Stablo izvršavanja
+- izvršavanje programa nad simboličkim vrednostima
+- simbolička stanja preslikavaju promenljive u simboličke vrednosti
+- uslov putanje - formula bez kvantifikatora nad simboličkim ulazima koja sadrži sve odluke koje su do te prilike donete
+- sve putanje programa formiraju stablo izvršavanja
+
+![](./imgs/stablo.png)
+![](./imgs/stablo1.png)
+
+39. Simboličko izvršavanje. Primene.
+
+- pronalaženje grešaka
+- 30% grešaka u razvoju Windows7 Majkrosoft je našao simboličkim izvršavanjem
+- generisanje test primera
+- otkrivanje nedostužnih putanja
+- generisanje invarijantni programa, automatske ispravke programa
+
+40. Simboličko izvršavanje. Izazovi.
+
+- teorijski: možemo generisati sve moguće putanje kroz koje program može da prođe za vreme konkretnog izvršavanja programa na nekim konkretnim ulazima, pod pretpostavkom da se svako konkretno izvršavanje zaustavlja
+- teško izvodljivo u praksi
+
+![](./imgs/izazovi1.png)
+![](./imgs/izazovi2.png)
+![](./imgs/izazovi3.png)
+![](./imgs/izazovi4.png)
+![](./imgs/izazovi5.png)
+![](./imgs/izazovi6.png)
+
+- Lažno pozitivno, lažno upozorenje - prijavi da može da izazove grešku a zapravo može
+- Lažno negativno - kaže da je kod u redu a nije
+- Saglasno - nema lažno negativne, ako kaže da je ispravan onda je ispravan
+- Kompletnost - nema lažno pozitivnih, ako kaže da je neispravan onda je neispravan
+
+41. Simboličko izvršavanje. Konkoličko izvršavanje.
+
+- mešanje konkretnog i simboličkog izvršavanje
+- omogućava praktičnu upotrebu simboličkog izvršavanja
+
+Vrste izvršavanja:
+- dinamičko simboličko izvršvanje
+    - simboličko izvršavanje vođeno konkretniim vrednostima
+    - pored simboličkog skladišta, uslova putanja čuva se i konkretno skladište
+    - izvršavanje počinje proizvljnim ulazom
+    - program se izvršava i konkretno i simbolički tako što se simultano ažuriraju oba skladišta i uslovi putanje
+    - Kada god konkretno izvršavanje krene nekom konkretnom granom, simboličko izvršavanje se usmerava prema istoj grani i uslovi putanje se ažuriraju u skladu sa uslovom koji je zadovoljen da bi se tom granom krenulo
+    - simboličko izvršavanje je vođeno specifičnim konkretnim izvršavanjem
+    - izvršavanje ne mora da poziva rešavač ograničenja da odluči da li ja neka grana dostupna, tj da li je formula koja odgovra uslovima putanje zadovoljena, to se direktno proverava konkretnim izvršavanjem
+    - Da bi se istražile različite putanje, uslovi putanje koji su zadati sa jednim ili više grananja se mogu negirati, i tako dobijena formula se može dati SMT rešavaču da pronađe nove ulaze koji će onda ići tom novom putanjom
+    - ponavljati onoliko puta koliko je to potrebno da se dostigne odgovarajuća pokrivenost
+- selektivno simboličko izvršvanje
+    - neko želi da istraži samo neke delove koda u potpunosti, tj simbolički, a da pritom nije zainteresovan za neke druge delove koda
+    - selektivno simboličko izvršavanje prepliće konkretno i simboličko izvršavanje održavajući pritom analizu smislenom
+
+42. Simboličko izvršavanje. Strategije obilaska puteva. Pretraga u dubinu, širinu i odabir slučajnog
+puta.
+
+- tražimo uslov koji će biti negiran da bi se omogućila pretrage nove putaje
+- važno je efikasno vršti ovu pretragu jer broj grana može biti veoma velik
+- alati koji koriste dinamičko simoličko izvršavanje - alati za rasplinuto testiranje bele kutije
+- početni ulaz je bitan
+
+Heuristike vođene ciljevima
+- obilazak svih putanja je preskup
+- heuristike za izbor putanja - pomažu ostvarivanju specifičnih ciljeva
+- pronalaženje univerzalno optimalne strategije je otvoren istraživački problem
+
+Tehnike zasnovane na strukturi koda
+- BFS
+    - prate se putanje paralelno
+    - veće memorijsko zauzeće
+    - dosta vremena dok se putanja završi do kraja
+    - omogućava brzo istraživanje skroz različitih putanja i ranu detekciju interesantnog ponašanja sistema
+    - ako se traži kompletno istraživanje jedne ili više putanja BFS zahteva jako puno vremena
+- DFS
+    - prati putanju dok je moguće, onda backtracking na najdublju neistraženu granu
+    - prioritet: smanjiti upotrebu memoriju
+    - često biva uhvaćena putanja koja sadrži petlje ili rekurzivne puteve
+
+- Random pretraga
+    - koristi se pseudorandom i čuva se seed
+    - sledeća putanja se bira random metodom, random metodom restartuj pretragu ukoliko se ništa novo ne dešava već neko vreme, ako imamo putanje jednakih prioriteta naredna se bira random
+    - random izbor putanje sa težinama, KLEE dodeljuje težine putanjama koje zavise od njihove dužine i arnosti njihovog grananja, favorizuju se grane koje su manje puta bile izražene
+
+43. Simboličko izvršavanje. Strategije obilaska puteva. Izvršavanje vođeno pokrivenošću koda. Simboličko izvršavanje najkraćeg rastojanja.
+
+Izvršavanje vođeno pokrivenošću koda
+- izaberi putanju koja će najverovatnije da izvrši neku novu instrukciju
+- pokušaj da posetiš instrukcije koje ranije nisu bile izvršavane, ukoliko takve putanje nema, izaberi onu putanju u kojoj su instrukcije izvršvane najmanji broj puta
+- dobra strana: greške su u delovima koda koji se retko izvršavaju, a ova strategija pokušava da dopre do njih
+- KLEE - za svako stanje izračunava se težina koja se koristi prilikom random izbora stanja sa kojim se izvršavanje nastavlja. Težina se izračunava razmatranjem koliko daleko se nalazi instrukcija koja nije pokrivena, da li je novi kod otkriven iz tog stanja
+relativno skoro, kao i iz kojih stanja se došlo do datog stanja
+
+![](./imgs/podputanje.png)
+
+Simboličko izvršavanje najkraćeg rastojanja
+- cilj nije povećavanje pokrivenosti koda
+- cilj je pronalaženje ulazni parametara koji će uzrokovati izvršavanje neke izabrane tačke u programu
+- heuristika zasnovana na metrikama za evaluaciju najkraćeg rastojanja do ciljne tačke
+- rastojanje se računa kao dužina najkaće putanje u grafu interproceduralne kontrole toka i putanjama koje imaju najkaću distanu se daje prioritet
+
+44. Simboličko izvršavanje. Strategije obilaska puteva. Generacijska pretraga. Kombinovana strategija.
+
+![](./imgs/generacijska.png)
+
+Kombinovana strategija:
+![](./imgs/kombinovano.png)
+
+45. Simboličko izvršavanje. Strategije obilaska puteva. Tehnike izvršavanja unazad.
+
+SBE - Symbolic Backwards Execution
+- analiza se izvršava u obrnutom smeru, izvršavanje kreće od ciljne tačke prema tački ulaza u program
+- cilj: napraviti test primer koji uzrokuje izvršavanje specifične linije koda, obično assert ili throw naredbe
+- korisni za debagovanje ili regresiono testiranje
+- ograničenja putanje se skupljaju po grananjima unazd
+- više putanja se istražuje odjednom kao kod običnog simboličkog izvršavanja
+- putanje se povrmeno proveravaju da li su dostižne, ako se utvrdi da je nedostižna onda se odbacuje i radi se backtracking
+
+CCBSE - Call-chain backwards symbolic execution
+- tehnika započinje utvrđivanjem validne putanje u okviru funkcije gde je ciljna linija locirana
+- kada se putanja pronađe: pomeramo se na funkciju pozivaoca ove funkcije i pokušavamo da rekonstruišemo validnu putanju od njenog ulaza do poziva funkcije u kojoj je ciljna linija koda
+- proces se rekurzivno nastavlja dok ne dođemo do main funckije
+
+SBE vs CCSBE
+- u okviru svake funkcije za CCSBE izvršava obično simboličko izvršavanje, a SBE izvršava unazad
+
+![](./imgs/ogrnicenja_unazad.png)
+
+46. Simboličko izvršavanje. Modelovanje memorije. Puna simbolička memorija.
